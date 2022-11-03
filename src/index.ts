@@ -1,34 +1,66 @@
-import { Application, Loader, Texture, AnimatedSprite } from "pixi.js";
+import { Application, Loader, Text } from "pixi.js";
 import "./style.css";
 
-declare const VERSION: string;
+// declare const VERSION: string;
+// console.log(`Welcome from pixi-typescript-boilerplate ${VERSION}`);
+
+const urlPlayers =
+    "https://testing.cdn.arkadiumhosted.com/gameExamples/programming-assignments/senior-core-developer/players.json";
+const urlQuotes =
+    "https://testing.cdn.arkadiumhosted.com/gameExamples/programming-assignments/senior-core-developer/quotes.json";
 
 const gameWidth = 800;
 const gameHeight = 600;
 
-console.log(`Welcome from pixi-typescript-boilerplate ${VERSION}`);
-
 const app = new Application({
-    backgroundColor: 0x212121,
+    backgroundColor: 0xf2f2f2,
     width: gameWidth,
     height: gameHeight,
 });
 
+// GET DATA PLAYERS & QUOTES
+const fetchPlayersAndQuotes = async () => {
+    const [playersResponse, quotesResponse] = await Promise.all([fetch(urlPlayers), fetch(urlQuotes)]);
+
+    if (!playersResponse.ok || !quotesResponse.ok) {
+        const message = `An error has occured: ${playersResponse.status}`;
+        throw new Error(message);
+    }
+
+    const players = await playersResponse.json();
+    const quotes = await quotesResponse.json();
+    return [players, quotes];
+};
+fetchPlayersAndQuotes()
+    .then(([players, quotes]) => {
+        console.log("players =>", players);
+        // console.log("quotes =>", quotes);
+        players; // fetched players
+        quotes; // fetched quotes
+    })
+    .catch((error) => {
+        // /players or /quotes request failed
+        console.log("error =>", error.message);
+    });
+
+// BASIC TEXT
+const basicText = new Text("Hello World");
+basicText.anchor.set(0.5, 0.5);
+basicText.position.set(gameWidth / 2, 50);
+
+// ON LOAD
 window.onload = async (): Promise<void> => {
     await loadGameAssets();
 
     document.body.appendChild(app.view);
+    app.stage.addChild(basicText);
+    app.stage.addChild(basicText);
 
     resizeCanvas();
-
-    const birdFromSprite = getBird();
-    birdFromSprite.anchor.set(0.5, 0.5);
-    birdFromSprite.position.set(gameWidth / 2, 530);
-
-    app.stage.addChild(birdFromSprite);
     app.stage.interactive = true;
 };
 
+// LOAD ASSETS
 async function loadGameAssets(): Promise<void> {
     return new Promise((res, rej) => {
         const loader = Loader.shared;
@@ -46,6 +78,7 @@ async function loadGameAssets(): Promise<void> {
     });
 }
 
+// RESIZE CANVAS
 function resizeCanvas(): void {
     const resize = () => {
         app.renderer.resize(window.innerWidth, window.innerHeight);
@@ -56,19 +89,4 @@ function resizeCanvas(): void {
     resize();
 
     window.addEventListener("resize", resize);
-}
-
-function getBird(): AnimatedSprite {
-    const bird = new AnimatedSprite([
-        Texture.from("birdUp.png"),
-        Texture.from("birdMiddle.png"),
-        Texture.from("birdDown.png"),
-    ]);
-
-    bird.loop = true;
-    bird.animationSpeed = 0.1;
-    bird.play();
-    bird.scale.set(3);
-
-    return bird;
 }
