@@ -1,0 +1,7004 @@
+{
+    "players": [
+      {
+        "index": 0,
+        "name": "NathaliaH",
+        "score": 9997705,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 1,
+        "name": "JKrueger",
+        "score": 9997212,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 2,
+        "name": "Gilbert ",
+        "score": 9989350,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 3,
+        "name": "Maeve Doyle",
+        "score": 9988210,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 4,
+        "name": "UGarner82",
+        "score": 9978074,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 5,
+        "name": "deandre ",
+        "score": 9957950,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 6,
+        "name": "10Anton",
+        "score": 9956520,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 7,
+        "name": "T_Barajas83",
+        "score": 9947840,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 8,
+        "name": "Triston",
+        "score": 9933916,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 9,
+        "name": "10jamisong",
+        "score": 9929471,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 10,
+        "name": "Julie ",
+        "score": 9917449,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 11,
+        "name": "America81",
+        "score": 9911059,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 12,
+        "name": "JosueDominguez79",
+        "score": 9886336,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 13,
+        "name": "Reuben Li",
+        "score": 9883520,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 14,
+        "name": "G Sims",
+        "score": 9875521,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 15,
+        "name": "T Tapia",
+        "score": 9847468,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 16,
+        "name": "10Makai ",
+        "score": 9839928,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 17,
+        "name": "H Joyce",
+        "score": 9826239,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 18,
+        "name": "Rylan",
+        "score": 9795205,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 19,
+        "name": "V Adkins",
+        "score": 9771171,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 20,
+        "name": "2ismael d",
+        "score": 9767062,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 21,
+        "name": "ChanceV86",
+        "score": 9766269,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 22,
+        "name": "2aliza",
+        "score": 9725712,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 23,
+        "name": "N_Peck80",
+        "score": 9714491,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 24,
+        "name": "maeve i",
+        "score": 9709400,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 25,
+        "name": "GemmaM92",
+        "score": 9708156,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 26,
+        "name": "Mariyah Allison",
+        "score": 9672591,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 27,
+        "name": "Jennifer ",
+        "score": 9664616,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 28,
+        "name": "O Hahn",
+        "score": 9656646,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 29,
+        "name": "kenny j",
+        "score": 9650243,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 30,
+        "name": "ArielleS",
+        "score": 9646158,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 31,
+        "name": "Malaya",
+        "score": 9643852,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 32,
+        "name": "Emma",
+        "score": 9640800,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 33,
+        "name": "LHammond75",
+        "score": 9638213,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 34,
+        "name": "E_Foster98",
+        "score": 9636036,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 35,
+        "name": "KristopherDennis86",
+        "score": 9633861,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 36,
+        "name": "9jordyn",
+        "score": 9604821,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 37,
+        "name": "KeithO",
+        "score": 9593669,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 38,
+        "name": "Remy_85",
+        "score": 9593422,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 39,
+        "name": "CadenI",
+        "score": 9583556,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 40,
+        "name": "H_Shelton",
+        "score": 9580611,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 41,
+        "name": "amiad",
+        "score": 9570054,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 42,
+        "name": "10Frank",
+        "score": 9531602,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 43,
+        "name": "6LelandU79",
+        "score": 9517225,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 44,
+        "name": "claudia",
+        "score": 9497567,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 45,
+        "name": "azariah h",
+        "score": 9489337,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 46,
+        "name": "3QHarding",
+        "score": 9460751,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 47,
+        "name": "G Holder",
+        "score": 9450178,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 48,
+        "name": "Eliza",
+        "score": 9437856,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 49,
+        "name": "nevaeh ",
+        "score": 9427415,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 50,
+        "name": "Holland76",
+        "score": 9415335,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 51,
+        "name": "Salvador_Nixon84",
+        "score": 9409623,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 52,
+        "name": "OrionH",
+        "score": 9405737,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 53,
+        "name": "Elora",
+        "score": 9403415,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 54,
+        "name": "sage",
+        "score": 9373459,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 55,
+        "name": "kaden",
+        "score": 9373048,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 56,
+        "name": "qforbes",
+        "score": 9365819,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 57,
+        "name": "Dario ",
+        "score": 9362874,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 58,
+        "name": "Selah Valentine",
+        "score": 9349174,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 59,
+        "name": "adriel",
+        "score": 9348629,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 60,
+        "name": "VaughnY80",
+        "score": 9332995,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 61,
+        "name": "3harper",
+        "score": 9332425,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 62,
+        "name": "adanzamora",
+        "score": 9320271,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 63,
+        "name": "priscillaa",
+        "score": 9315173,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 64,
+        "name": "Danny93",
+        "score": 9297305,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 65,
+        "name": "v frye",
+        "score": 9267671,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 66,
+        "name": "DPace",
+        "score": 9258295,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 67,
+        "name": "Corey_94",
+        "score": 9240303,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 68,
+        "name": "Melanie ",
+        "score": 9223196,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 69,
+        "name": "phillip",
+        "score": 9222628,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 70,
+        "name": "beatrice ",
+        "score": 9190221,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 71,
+        "name": "hadleighwaters",
+        "score": 9189629,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 72,
+        "name": "Ismael R",
+        "score": 9187058,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 73,
+        "name": "C Graham",
+        "score": 9169370,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 74,
+        "name": "King_L81",
+        "score": 9163870,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 75,
+        "name": "zaria",
+        "score": 9159904,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 76,
+        "name": "Kenna84",
+        "score": 9159300,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 77,
+        "name": "malik ",
+        "score": 9157236,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 78,
+        "name": "M_Shannon92",
+        "score": 9148671,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 79,
+        "name": "Oliver",
+        "score": 9122710,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 80,
+        "name": "lionel",
+        "score": 9112291,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 81,
+        "name": "7w watts",
+        "score": 9099484,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 82,
+        "name": "Deandre",
+        "score": 9085579,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 83,
+        "name": "cannoncarey",
+        "score": 9083421,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 84,
+        "name": "Todd ",
+        "score": 9080015,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 85,
+        "name": "Nicole_80",
+        "score": 9041371,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 86,
+        "name": "Kashton95",
+        "score": 9032061,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 87,
+        "name": "Avianna",
+        "score": 9022075,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 88,
+        "name": "BillySampson",
+        "score": 9019203,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 89,
+        "name": "10Mohammed_F82",
+        "score": 9016887,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 90,
+        "name": "angelo",
+        "score": 9012351,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 91,
+        "name": "jaylenerosario",
+        "score": 9010709,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 92,
+        "name": "4J_Cookie",
+        "score": 8973944,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 93,
+        "name": "MeredithV",
+        "score": 8953294,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 94,
+        "name": "7Harley89",
+        "score": 8938175,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 95,
+        "name": "eli ",
+        "score": 8938170,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 96,
+        "name": "skyler ",
+        "score": 8937233,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 97,
+        "name": "Jaylene",
+        "score": 8936286,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 98,
+        "name": "Sullivan ",
+        "score": 8927898,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 99,
+        "name": "Cali",
+        "score": 8923427,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 100,
+        "name": "Byron79",
+        "score": 8893786,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 101,
+        "name": "Charlie",
+        "score": 8883425,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 102,
+        "name": "Abdiel F",
+        "score": 8866951,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 103,
+        "name": "Jasmine B",
+        "score": 8853817,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 104,
+        "name": "natalie",
+        "score": 8846360,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 105,
+        "name": "Camryn93",
+        "score": 8840332,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 106,
+        "name": "1Amelia",
+        "score": 8837264,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 107,
+        "name": "Sky",
+        "score": 8829173,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 108,
+        "name": "Amia_90",
+        "score": 8825435,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 109,
+        "name": "Kendra Young",
+        "score": 8816999,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 110,
+        "name": "Selena89",
+        "score": 8803786,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 111,
+        "name": "Jocelyn",
+        "score": 8796406,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 112,
+        "name": "collin",
+        "score": 8787235,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 113,
+        "name": "Emma ",
+        "score": 8761383,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 114,
+        "name": "Xander93",
+        "score": 8758819,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 115,
+        "name": "Frida ",
+        "score": 8756244,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 116,
+        "name": "amare ",
+        "score": 8749879,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 117,
+        "name": "MStanton83",
+        "score": 8743208,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 118,
+        "name": "HuxleyG",
+        "score": 8721086,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 119,
+        "name": "Olive",
+        "score": 8712278,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 120,
+        "name": "barrett",
+        "score": 8707806,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 121,
+        "name": "GTorres92",
+        "score": 8701339,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 122,
+        "name": "Paityn",
+        "score": 8696413,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 123,
+        "name": "Gael ",
+        "score": 8692326,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 124,
+        "name": "M_Miles",
+        "score": 8689848,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 125,
+        "name": "Emiliano",
+        "score": 8663975,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 126,
+        "name": "gemma",
+        "score": 8655107,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 127,
+        "name": "3rory",
+        "score": 8649404,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 128,
+        "name": "AxlY",
+        "score": 8636645,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 129,
+        "name": "NDeleon",
+        "score": 8583729,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 130,
+        "name": "Marley ",
+        "score": 8555853,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 131,
+        "name": "brantleyj",
+        "score": 8552382,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 132,
+        "name": "KinsleyD",
+        "score": 8536640,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 133,
+        "name": "darius sellers",
+        "score": 8536273,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 134,
+        "name": "6H Gordon",
+        "score": 8535603,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 135,
+        "name": "SaulI",
+        "score": 8527666,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 136,
+        "name": "gabrielle ",
+        "score": 8520741,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 137,
+        "name": "monserrati",
+        "score": 8512053,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 138,
+        "name": "Briar_A",
+        "score": 8502679,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 139,
+        "name": "javions",
+        "score": 8501605,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 140,
+        "name": "brantlee g",
+        "score": 8459398,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 141,
+        "name": "JulietaP95",
+        "score": 8454628,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 142,
+        "name": "Fiona Hamilton",
+        "score": 8439783,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 143,
+        "name": "lochlan",
+        "score": 8400353,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 144,
+        "name": "beatrice",
+        "score": 8394585,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 145,
+        "name": "Nico",
+        "score": 8387948,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 146,
+        "name": "8Saylor ",
+        "score": 8358133,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 147,
+        "name": "kamryn e",
+        "score": 8342182,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 148,
+        "name": "GHuber",
+        "score": 8336410,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 149,
+        "name": "justice ",
+        "score": 8316765,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 150,
+        "name": "evelynn e",
+        "score": 8252263,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 151,
+        "name": "Terry F",
+        "score": 8246144,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 152,
+        "name": "Guillermo_95",
+        "score": 8245204,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 153,
+        "name": "9Ulises81",
+        "score": 8238672,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 154,
+        "name": "D Ross",
+        "score": 8236306,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 155,
+        "name": "yahir i",
+        "score": 8227625,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 156,
+        "name": "Mariana Reyes",
+        "score": 8226710,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 157,
+        "name": "Christina ",
+        "score": 8209458,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 158,
+        "name": "Houston80",
+        "score": 8207523,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 159,
+        "name": "R Barron",
+        "score": 8181250,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 160,
+        "name": "Evelyn_J86",
+        "score": 8178815,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 161,
+        "name": "Emilie",
+        "score": 8153906,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 162,
+        "name": "angelicat",
+        "score": 8152490,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 163,
+        "name": "DarrellN85",
+        "score": 8127656,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 164,
+        "name": "Jillian ",
+        "score": 8126281,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 165,
+        "name": "KaysonB",
+        "score": 8123947,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 166,
+        "name": "Angelo",
+        "score": 8095541,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 167,
+        "name": "Jane_87",
+        "score": 8091184,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 168,
+        "name": "MalikSchwartz",
+        "score": 8089095,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 169,
+        "name": "kaitlynn ellison",
+        "score": 8086367,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 170,
+        "name": "H Mann",
+        "score": 8077864,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 171,
+        "name": "5b west",
+        "score": 8077615,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 172,
+        "name": "briana",
+        "score": 8068194,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 173,
+        "name": "wesleyibarra",
+        "score": 8045970,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 174,
+        "name": "i cummings",
+        "score": 8044636,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 175,
+        "name": "I Townsend",
+        "score": 8038339,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 176,
+        "name": "remy",
+        "score": 8020535,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 177,
+        "name": "Elsa",
+        "score": 8018968,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 178,
+        "name": "EllianaJ87",
+        "score": 7995029,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 179,
+        "name": "DemiL",
+        "score": 7961800,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 180,
+        "name": "P Potter",
+        "score": 7943331,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 181,
+        "name": "gabriella",
+        "score": 7937229,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 182,
+        "name": "i phelps",
+        "score": 7929395,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 183,
+        "name": "gianni",
+        "score": 7898131,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 184,
+        "name": "Kaison I",
+        "score": 7886186,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 185,
+        "name": "cameron ",
+        "score": 7869261,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 186,
+        "name": "wendyh",
+        "score": 7866216,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 187,
+        "name": "anika x",
+        "score": 7866052,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 188,
+        "name": "elliottdavid",
+        "score": 7865917,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 189,
+        "name": "Preston Barajas",
+        "score": 7865647,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 190,
+        "name": "Micah_I",
+        "score": 7862745,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 191,
+        "name": "2R_Petersen79",
+        "score": 7862482,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 192,
+        "name": "MicahHill",
+        "score": 7828675,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 193,
+        "name": "AdenI90",
+        "score": 7799138,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 194,
+        "name": "V Hahn",
+        "score": 7785543,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 195,
+        "name": "Claudia O",
+        "score": 7772968,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 196,
+        "name": "RheaMarsh",
+        "score": 7772141,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 197,
+        "name": "josie",
+        "score": 7767799,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 198,
+        "name": "PaisleeLozano",
+        "score": 7761748,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 199,
+        "name": "Allison ",
+        "score": 7761469,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 200,
+        "name": "AmarisB84",
+        "score": 7757907,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 201,
+        "name": "b austin",
+        "score": 7754254,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 202,
+        "name": "MarkP89",
+        "score": 7730899,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 203,
+        "name": "10MariaMccarthy",
+        "score": 7727471,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 204,
+        "name": "Ryann",
+        "score": 7706608,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 205,
+        "name": "Sydney",
+        "score": 7703467,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 206,
+        "name": "Finley_96",
+        "score": 7695826,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 207,
+        "name": "Aliya ",
+        "score": 7684518,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 208,
+        "name": "Karsyn",
+        "score": 7681515,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 209,
+        "name": "Scott",
+        "score": 7681327,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 210,
+        "name": "ethan",
+        "score": 7679908,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 211,
+        "name": "OSolomon",
+        "score": 7677423,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 212,
+        "name": "Amare_A",
+        "score": 7674698,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 213,
+        "name": "DahliaK",
+        "score": 7656867,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 214,
+        "name": "lizbeth",
+        "score": 7649057,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 215,
+        "name": "SMathis",
+        "score": 7634952,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 216,
+        "name": "jameson ",
+        "score": 7633395,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 217,
+        "name": "Asia ",
+        "score": 7598098,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 218,
+        "name": "Alayna_91",
+        "score": 7593694,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 219,
+        "name": "EmersonW90",
+        "score": 7578658,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 220,
+        "name": "Alianna",
+        "score": 7577551,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 221,
+        "name": "Huxley ",
+        "score": 7567590,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 222,
+        "name": "dimitri_carson",
+        "score": 7565725,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 223,
+        "name": "Kathleen ",
+        "score": 7565335,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 224,
+        "name": "Leia ",
+        "score": 7562916,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 225,
+        "name": "Arthur ",
+        "score": 7562301,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 226,
+        "name": "DiegoY",
+        "score": 7554326,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 227,
+        "name": "Elisa",
+        "score": 7530749,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 228,
+        "name": "Zackary",
+        "score": 7529274,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 229,
+        "name": "JohnX",
+        "score": 7505139,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 230,
+        "name": "Ernesto ",
+        "score": 7486690,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 231,
+        "name": "Braden M",
+        "score": 7486154,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 232,
+        "name": "6August ",
+        "score": 7472968,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 233,
+        "name": "jase pierce",
+        "score": 7469487,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 234,
+        "name": "Easton",
+        "score": 7463787,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 235,
+        "name": "KMercer75",
+        "score": 7459669,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 236,
+        "name": "Emerie ",
+        "score": 7456107,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 237,
+        "name": "Diana ",
+        "score": 7454349,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 238,
+        "name": "JoyceU81",
+        "score": 7429361,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 239,
+        "name": "MelinaI",
+        "score": 7425234,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 240,
+        "name": "paxtonmaldonado",
+        "score": 7401703,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 241,
+        "name": "O Andersen",
+        "score": 7401376,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 242,
+        "name": "karsynf",
+        "score": 7398050,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 243,
+        "name": "Dominick_98",
+        "score": 7393065,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 244,
+        "name": "Ryan_83",
+        "score": 7380980,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 245,
+        "name": "Lucille A",
+        "score": 7376839,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 246,
+        "name": "yusufgeorge",
+        "score": 7375667,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 247,
+        "name": "hpruitt",
+        "score": 7370679,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 248,
+        "name": "G Figueroa",
+        "score": 7367524,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 249,
+        "name": "RenataDawson",
+        "score": 7357389,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 250,
+        "name": "owen",
+        "score": 7346455,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 251,
+        "name": "LibertyFritz",
+        "score": 7343843,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 252,
+        "name": "IRodriguez",
+        "score": 7341651,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 253,
+        "name": "Cadence E",
+        "score": 7320829,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 254,
+        "name": "malachi",
+        "score": 7304708,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 255,
+        "name": "Kade",
+        "score": 7295280,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 256,
+        "name": "alisha",
+        "score": 7292386,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 257,
+        "name": "Jewel_78",
+        "score": 7289074,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 258,
+        "name": "AchillesHo80",
+        "score": 7281961,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 259,
+        "name": "lana",
+        "score": 7250666,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 260,
+        "name": "neriah c",
+        "score": 7244319,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 261,
+        "name": "Lylah_86",
+        "score": 7230203,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 262,
+        "name": "Elaina Crane",
+        "score": 7223034,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 263,
+        "name": "elliott ",
+        "score": 7222978,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 264,
+        "name": "sashap",
+        "score": 7221782,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 265,
+        "name": "HelenaGallagher",
+        "score": 7220870,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 266,
+        "name": "jenny",
+        "score": 7201852,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 267,
+        "name": "h bridges",
+        "score": 7200005,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 268,
+        "name": "Tessa Johnston",
+        "score": 7190174,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 269,
+        "name": "kaiya",
+        "score": 7182988,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 270,
+        "name": "elijah_griffith",
+        "score": 7181571,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 271,
+        "name": "Genevieve ",
+        "score": 7180076,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 272,
+        "name": "JefferyX75",
+        "score": 7172629,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 273,
+        "name": "3AbramK",
+        "score": 7163452,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 274,
+        "name": "AlondraFranco",
+        "score": 7157011,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 275,
+        "name": "NManning",
+        "score": 7148935,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 276,
+        "name": "Claire",
+        "score": 7141205,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 277,
+        "name": "Issac ",
+        "score": 7138962,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 278,
+        "name": "Lane",
+        "score": 7122509,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 279,
+        "name": "Claudia ",
+        "score": 7121357,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 280,
+        "name": "WillaI75",
+        "score": 7109412,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 281,
+        "name": "QCastillo86",
+        "score": 7106014,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 282,
+        "name": "Aubrey ",
+        "score": 7058984,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 283,
+        "name": "F_Rowland88",
+        "score": 7044545,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 284,
+        "name": "Skyla",
+        "score": 7038770,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 285,
+        "name": "Avah95",
+        "score": 7035773,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 286,
+        "name": "maliyah t",
+        "score": 7032792,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 287,
+        "name": "LDougherty",
+        "score": 7029400,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 288,
+        "name": "samantha_b",
+        "score": 7007955,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 289,
+        "name": "U Maldonado",
+        "score": 6995794,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 290,
+        "name": "liav",
+        "score": 6969203,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 291,
+        "name": "Jordyn_Y81",
+        "score": 6932176,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 292,
+        "name": "Aspen_Rose82",
+        "score": 6931180,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 293,
+        "name": "Royal ",
+        "score": 6912422,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 294,
+        "name": "5Abram",
+        "score": 6906027,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 295,
+        "name": "rudy d",
+        "score": 6896635,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 296,
+        "name": "Giancarlo ",
+        "score": 6894257,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 297,
+        "name": "QCruz81",
+        "score": 6893601,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 298,
+        "name": "Whitney82",
+        "score": 6891372,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 299,
+        "name": "2hadlee",
+        "score": 6861216,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 300,
+        "name": "kori",
+        "score": 6832898,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 301,
+        "name": "axel",
+        "score": 6829139,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 302,
+        "name": "Xander_Houston86",
+        "score": 6824063,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 303,
+        "name": "Jamir Maxwell",
+        "score": 6823812,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 304,
+        "name": "Eileen",
+        "score": 6821153,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 305,
+        "name": "jaxen ",
+        "score": 6821125,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 306,
+        "name": "Brittany_87",
+        "score": 6815838,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 307,
+        "name": "Sasha_Leon",
+        "score": 6804052,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 308,
+        "name": "Kali Contreras",
+        "score": 6790598,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 309,
+        "name": "8Tatiana93",
+        "score": 6789945,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 310,
+        "name": "Jessie ",
+        "score": 6780705,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 311,
+        "name": "5AndreArellano",
+        "score": 6779318,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 312,
+        "name": "jazmine",
+        "score": 6778085,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 313,
+        "name": "HDuncan",
+        "score": 6758161,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 314,
+        "name": "cali",
+        "score": 6740366,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 315,
+        "name": "Douglas Wiley",
+        "score": 6739428,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 316,
+        "name": "Eloise N",
+        "score": 6702694,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 317,
+        "name": "Anakin ",
+        "score": 6696736,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 318,
+        "name": "esteban_ramirez",
+        "score": 6677434,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 319,
+        "name": "NoelU76",
+        "score": 6673748,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 320,
+        "name": "9KoltonG93",
+        "score": 6672898,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 321,
+        "name": "Courtney_O80",
+        "score": 6664185,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 322,
+        "name": "greed",
+        "score": 6647492,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 323,
+        "name": "5Kora ",
+        "score": 6634227,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 324,
+        "name": "7VMueller87",
+        "score": 6629907,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 325,
+        "name": "aitana ",
+        "score": 6625601,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 326,
+        "name": "I Conway",
+        "score": 6621119,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 327,
+        "name": "lucian_t",
+        "score": 6619752,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 328,
+        "name": "hugo v",
+        "score": 6602920,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 329,
+        "name": "U Fletcher",
+        "score": 6583615,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 330,
+        "name": "Lennox ",
+        "score": 6578621,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 331,
+        "name": "leighton",
+        "score": 6561828,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 332,
+        "name": "Hazel",
+        "score": 6559314,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 333,
+        "name": "Elisa Hardy",
+        "score": 6558054,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 334,
+        "name": "Reid ",
+        "score": 6544473,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 335,
+        "name": "Deangelo W",
+        "score": 6523041,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 336,
+        "name": "AddisonP",
+        "score": 6519135,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 337,
+        "name": "xmelendez",
+        "score": 6510267,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 338,
+        "name": "frederick q",
+        "score": 6496381,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 339,
+        "name": "fatima",
+        "score": 6487054,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 340,
+        "name": "MBennett",
+        "score": 6479587,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 341,
+        "name": "AugustineL",
+        "score": 6467635,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 342,
+        "name": "V Small",
+        "score": 6467623,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 343,
+        "name": "ScarletWilkerson",
+        "score": 6454009,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 344,
+        "name": "10Zoie ",
+        "score": 6436150,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 345,
+        "name": "Bo ",
+        "score": 6422455,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 346,
+        "name": "Luz",
+        "score": 6421279,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 347,
+        "name": "stevent",
+        "score": 6414657,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 348,
+        "name": "Valeria",
+        "score": 6408295,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 349,
+        "name": "Vincenzo86",
+        "score": 6407073,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 350,
+        "name": "ayleen_b",
+        "score": 6397749,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 351,
+        "name": "p villa",
+        "score": 6369937,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 352,
+        "name": "Jabari Glass",
+        "score": 6345322,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 353,
+        "name": "Freddy L",
+        "score": 6335026,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 354,
+        "name": "Ace_Navarro92",
+        "score": 6319089,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 355,
+        "name": "Ronald ",
+        "score": 6316069,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 356,
+        "name": "Abdiel O",
+        "score": 6315385,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 357,
+        "name": "W Dickerson",
+        "score": 6309628,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 358,
+        "name": "DashO80",
+        "score": 6303329,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 359,
+        "name": "Melissa",
+        "score": 6282194,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 360,
+        "name": "F Warner",
+        "score": 6274928,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 361,
+        "name": "KaitlynnA",
+        "score": 6253591,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 362,
+        "name": "Ronald_80",
+        "score": 6235134,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 363,
+        "name": "chevy ",
+        "score": 6233352,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 364,
+        "name": "billy",
+        "score": 6228714,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 365,
+        "name": "8kiera hebert",
+        "score": 6226017,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 366,
+        "name": "Cynthia",
+        "score": 6224535,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 367,
+        "name": "gisellet",
+        "score": 6220652,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 368,
+        "name": "Malakai ",
+        "score": 6214517,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 369,
+        "name": "cruz",
+        "score": 6192558,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 370,
+        "name": "Molly",
+        "score": 6184995,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 371,
+        "name": "anya",
+        "score": 6166526,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 372,
+        "name": "WWoods",
+        "score": 6154008,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 373,
+        "name": "anaya ",
+        "score": 6150492,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 374,
+        "name": "1daisy i",
+        "score": 6142128,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 375,
+        "name": "TReilly",
+        "score": 6137433,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 376,
+        "name": "jose norton",
+        "score": 6133809,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 377,
+        "name": "David_80",
+        "score": 6084259,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 378,
+        "name": "Maliah V",
+        "score": 6080588,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 379,
+        "name": "Meadow",
+        "score": 6075826,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 380,
+        "name": "8Zainab",
+        "score": 6062827,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 381,
+        "name": "marcos",
+        "score": 6048408,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 382,
+        "name": "Leslie ",
+        "score": 6041258,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 383,
+        "name": "Hayden_Hunt92",
+        "score": 6030642,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 384,
+        "name": "w lynch",
+        "score": 6005848,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 385,
+        "name": "Lea R",
+        "score": 5997666,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 386,
+        "name": "W Meyers",
+        "score": 5987109,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 387,
+        "name": "9hdunn",
+        "score": 5974296,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 388,
+        "name": "KennyJ",
+        "score": 5967503,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 389,
+        "name": "Aleah",
+        "score": 5959709,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 390,
+        "name": "10Izaiah_85",
+        "score": 5951539,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 391,
+        "name": "Agustin_92",
+        "score": 5946460,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 392,
+        "name": "evan",
+        "score": 5911677,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 393,
+        "name": "Kaylie",
+        "score": 5909283,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 394,
+        "name": "Armani",
+        "score": 5907075,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 395,
+        "name": "Ivan",
+        "score": 5902230,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 396,
+        "name": "HaydenH78",
+        "score": 5888598,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 397,
+        "name": "3Dangelo ",
+        "score": 5882101,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 398,
+        "name": "kelvin",
+        "score": 5882099,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 399,
+        "name": "aileen",
+        "score": 5870914,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 400,
+        "name": "ConradG",
+        "score": 5853052,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 401,
+        "name": "Craig",
+        "score": 5847890,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 402,
+        "name": "Lee",
+        "score": 5833866,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 403,
+        "name": "AliciaS93",
+        "score": 5816719,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 404,
+        "name": "2Aryana ",
+        "score": 5808136,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 405,
+        "name": "AspenH",
+        "score": 5794157,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 406,
+        "name": "tracegardner",
+        "score": 5791560,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 407,
+        "name": "Princess",
+        "score": 5790859,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 408,
+        "name": "L Mosley",
+        "score": 5776810,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 409,
+        "name": "8Amara",
+        "score": 5754088,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 410,
+        "name": "Janessa",
+        "score": 5748352,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 411,
+        "name": "SHardin",
+        "score": 5745920,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 412,
+        "name": "Donovan_84",
+        "score": 5733149,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 413,
+        "name": "bryce c",
+        "score": 5711898,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 414,
+        "name": "Atticus",
+        "score": 5709574,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 415,
+        "name": "Kimberly",
+        "score": 5696031,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 416,
+        "name": "1a_waller",
+        "score": 5691958,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 417,
+        "name": "kendall ",
+        "score": 5680193,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 418,
+        "name": "3bentley ",
+        "score": 5655749,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 419,
+        "name": "Kellen",
+        "score": 5652314,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 420,
+        "name": "CamrenO",
+        "score": 5640488,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 421,
+        "name": "julissa",
+        "score": 5635069,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 422,
+        "name": "BellaFreeman",
+        "score": 5622781,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 423,
+        "name": "NJimenez",
+        "score": 5620423,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 424,
+        "name": "KEllis",
+        "score": 5601032,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 425,
+        "name": "AdeleB",
+        "score": 5600188,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 426,
+        "name": "matilda y",
+        "score": 5569218,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 427,
+        "name": "braidenq",
+        "score": 5525327,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 428,
+        "name": "AllieSanders",
+        "score": 5519197,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 429,
+        "name": "gunnar ",
+        "score": 5513010,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 430,
+        "name": "kynleef",
+        "score": 5510593,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 431,
+        "name": "michelle v",
+        "score": 5507418,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 432,
+        "name": "DarrenSalinas",
+        "score": 5501991,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 433,
+        "name": "Aylin_94",
+        "score": 5453799,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 434,
+        "name": "Nickolas W",
+        "score": 5444377,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 435,
+        "name": "Johan ",
+        "score": 5422503,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 436,
+        "name": "zachariah",
+        "score": 5420098,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 437,
+        "name": "CatalinaO",
+        "score": 5417059,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 438,
+        "name": "aleena",
+        "score": 5400522,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 439,
+        "name": "NSchneider",
+        "score": 5384168,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 440,
+        "name": "abdullahc",
+        "score": 5378552,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 441,
+        "name": "Rosa_80",
+        "score": 5360104,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 442,
+        "name": "Josiah ",
+        "score": 5354233,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 443,
+        "name": "Y Russo",
+        "score": 5349611,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 444,
+        "name": "Drew",
+        "score": 5344349,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 445,
+        "name": "taylor",
+        "score": 5333630,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 446,
+        "name": "5Brooks V",
+        "score": 5329577,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 447,
+        "name": "7LeilaniShaw",
+        "score": 5327021,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 448,
+        "name": "4Ronin_U94",
+        "score": 5324500,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 449,
+        "name": "Liana Rodriguez",
+        "score": 5323382,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 450,
+        "name": "RudyU",
+        "score": 5301147,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 451,
+        "name": "5SebastianY93",
+        "score": 5290340,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 452,
+        "name": "abram_livingston",
+        "score": 5282935,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 453,
+        "name": "Ryker ",
+        "score": 5253485,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 454,
+        "name": "F Manning",
+        "score": 5252804,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 455,
+        "name": "ariana",
+        "score": 5225114,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 456,
+        "name": "Katelyn ",
+        "score": 5207085,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 457,
+        "name": "Eli",
+        "score": 5199391,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 458,
+        "name": "Maxim ",
+        "score": 5190789,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 459,
+        "name": "Colette",
+        "score": 5180846,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 460,
+        "name": "kate ",
+        "score": 5178584,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 461,
+        "name": "r_stark",
+        "score": 5170957,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 462,
+        "name": "A Kaiser",
+        "score": 5163133,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 463,
+        "name": "Mckinley ",
+        "score": 5158169,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 464,
+        "name": "3Brice ",
+        "score": 5150998,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 465,
+        "name": "6dominiquehansen",
+        "score": 5149887,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 466,
+        "name": "Nadia",
+        "score": 5146573,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 467,
+        "name": "houston chan",
+        "score": 5142004,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 468,
+        "name": "layla",
+        "score": 5139448,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 469,
+        "name": "donovan ",
+        "score": 5132123,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 470,
+        "name": "Isabel_James91",
+        "score": 5116929,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 471,
+        "name": "OliveC",
+        "score": 5110795,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 472,
+        "name": "AydinHanson96",
+        "score": 5097418,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 473,
+        "name": "R_Lin88",
+        "score": 5067398,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 474,
+        "name": "U_Woodard94",
+        "score": 5063625,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 475,
+        "name": "romina",
+        "score": 5051270,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 476,
+        "name": "L_Levy97",
+        "score": 5038826,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 477,
+        "name": "4Everett_W89",
+        "score": 5031045,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 478,
+        "name": "rosie ",
+        "score": 5009057,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 479,
+        "name": "FBauer84",
+        "score": 4997215,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 480,
+        "name": "Averie",
+        "score": 4970107,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 481,
+        "name": "giuliana",
+        "score": 4964946,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 482,
+        "name": "Mohamed_88",
+        "score": 4947265,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 483,
+        "name": "augustine",
+        "score": 4945951,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 484,
+        "name": "Dane_83",
+        "score": 4908879,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 485,
+        "name": "U Bauer",
+        "score": 4903059,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 486,
+        "name": "Keenan F",
+        "score": 4900568,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 487,
+        "name": "Haylee97",
+        "score": 4897073,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 488,
+        "name": "Johnathan_86",
+        "score": 4893643,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 489,
+        "name": "Ernest K",
+        "score": 4886952,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 490,
+        "name": "Heaven U",
+        "score": 4858336,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 491,
+        "name": "ricardoray",
+        "score": 4850409,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 492,
+        "name": "AugustSherman89",
+        "score": 4846003,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 493,
+        "name": "Omar ",
+        "score": 4845138,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 494,
+        "name": "vanessal",
+        "score": 4821824,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 495,
+        "name": "dexter t",
+        "score": 4814751,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 496,
+        "name": "PhillipHenderson",
+        "score": 4810188,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 497,
+        "name": "FFrey",
+        "score": 4805601,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 498,
+        "name": "Albert",
+        "score": 4794145,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 499,
+        "name": "GConrad",
+        "score": 4784737,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 500,
+        "name": "jesse",
+        "score": 4784653,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 501,
+        "name": "Felix_83",
+        "score": 4782130,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 502,
+        "name": "Lee",
+        "score": 4771534,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 503,
+        "name": "10LeeWard96",
+        "score": 4770174,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 504,
+        "name": "braelynn",
+        "score": 4763512,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 505,
+        "name": "M Lozano",
+        "score": 4755374,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 506,
+        "name": "makai_merritt",
+        "score": 4750326,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 507,
+        "name": "GiovanniN",
+        "score": 4749592,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 508,
+        "name": "triston",
+        "score": 4732577,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 509,
+        "name": "mbender",
+        "score": 4694508,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 510,
+        "name": "yaritza",
+        "score": 4673701,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 511,
+        "name": "Nevaeh T",
+        "score": 4665573,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 512,
+        "name": "Mallory_Middleton75",
+        "score": 4652171,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 513,
+        "name": "Courtney ",
+        "score": 4630206,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 514,
+        "name": "Lena89",
+        "score": 4586774,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 515,
+        "name": "Kyree87",
+        "score": 4573980,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 516,
+        "name": "Gabriela_79",
+        "score": 4569400,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 517,
+        "name": "Kennedi_96",
+        "score": 4545467,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 518,
+        "name": "LawsonMoody",
+        "score": 4509482,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 519,
+        "name": "Quintin Hoffman",
+        "score": 4501612,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 520,
+        "name": "Kye92",
+        "score": 4483307,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 521,
+        "name": "Matteo_P76",
+        "score": 4482551,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 522,
+        "name": "kensley ",
+        "score": 4476675,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 523,
+        "name": "Kade",
+        "score": 4465842,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 524,
+        "name": "EverleighI",
+        "score": 4443718,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 525,
+        "name": "CharlotteOchoa",
+        "score": 4436089,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 526,
+        "name": "LDickerson",
+        "score": 4415833,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 527,
+        "name": "brynn",
+        "score": 4407102,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 528,
+        "name": "D Stout",
+        "score": 4407082,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 529,
+        "name": "yaretzi ",
+        "score": 4397484,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 530,
+        "name": "MauricioStanton",
+        "score": 4394690,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 531,
+        "name": "AriahBond85",
+        "score": 4394442,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 532,
+        "name": "Omar ",
+        "score": 4376925,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 533,
+        "name": "Ignacio ",
+        "score": 4373695,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 534,
+        "name": "Rhett Lozano",
+        "score": 4370939,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 535,
+        "name": "8Catherine",
+        "score": 4359259,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 536,
+        "name": "R Whitaker",
+        "score": 4353460,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 537,
+        "name": "10KareemFisher92",
+        "score": 4351995,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 538,
+        "name": "ValentinaTrujillo81",
+        "score": 4350146,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 539,
+        "name": "valeriepatton",
+        "score": 4331153,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 540,
+        "name": "Aislinn K",
+        "score": 4291250,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 541,
+        "name": "Maurice",
+        "score": 4289986,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 542,
+        "name": "LWade",
+        "score": 4263952,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 543,
+        "name": "karsyn",
+        "score": 4227091,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 544,
+        "name": "Hallie G",
+        "score": 4213041,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 545,
+        "name": "TrippSanchez88",
+        "score": 4202292,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 546,
+        "name": "calvin_e",
+        "score": 4182328,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 547,
+        "name": "XanderS",
+        "score": 4168950,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 548,
+        "name": "1CamdynQ",
+        "score": 4123536,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 549,
+        "name": "h carey",
+        "score": 4115247,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 550,
+        "name": "DakotaSchultz",
+        "score": 4113739,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 551,
+        "name": "QBradshaw96",
+        "score": 4091736,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 552,
+        "name": "Keagan82",
+        "score": 4085190,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 553,
+        "name": "CameronV98",
+        "score": 4084849,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 554,
+        "name": "ColetteJensen",
+        "score": 4074137,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 555,
+        "name": "WCannon",
+        "score": 4073825,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 556,
+        "name": "Kyle H",
+        "score": 4056264,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 557,
+        "name": "Mikaela",
+        "score": 4031056,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 558,
+        "name": "Madyson_Cantu91",
+        "score": 4019632,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 559,
+        "name": "HoldenIbarra",
+        "score": 3998916,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 560,
+        "name": "DavionW",
+        "score": 3991783,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 561,
+        "name": "dax ayers",
+        "score": 3983249,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 562,
+        "name": "j miller",
+        "score": 3981132,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 563,
+        "name": "G Phillips",
+        "score": 3975322,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 564,
+        "name": "Skyla",
+        "score": 3961247,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 565,
+        "name": "nehemiah",
+        "score": 3924537,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 566,
+        "name": "bradenm",
+        "score": 3923603,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 567,
+        "name": "Chandler78",
+        "score": 3921233,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 568,
+        "name": "Eva Colon",
+        "score": 3904254,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 569,
+        "name": "1Cali_80",
+        "score": 3894695,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 570,
+        "name": "b_madden",
+        "score": 3893061,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 571,
+        "name": "ceceliahamilton",
+        "score": 3889154,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 572,
+        "name": "KalaniReilly",
+        "score": 3881124,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 573,
+        "name": "LawsonN",
+        "score": 3880532,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 574,
+        "name": "Dario ",
+        "score": 3878131,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 575,
+        "name": "William ",
+        "score": 3865057,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 576,
+        "name": "rylan ",
+        "score": 3860776,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 577,
+        "name": "cesar esparza",
+        "score": 3854523,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 578,
+        "name": "Kingston Perez",
+        "score": 3851533,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 579,
+        "name": "Karlee91",
+        "score": 3843102,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 580,
+        "name": "Justus ",
+        "score": 3829151,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 581,
+        "name": "adanbenitez",
+        "score": 3827967,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 582,
+        "name": "Manuel",
+        "score": 3811242,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 583,
+        "name": "Raquel ",
+        "score": 3810067,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 584,
+        "name": "Dexter ",
+        "score": 3804586,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 585,
+        "name": "Helena",
+        "score": 3787459,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 586,
+        "name": "7alexzanderkrueger",
+        "score": 3786574,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 587,
+        "name": "JeffersonGilbert",
+        "score": 3776659,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 588,
+        "name": "DarwinI90",
+        "score": 3773013,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 589,
+        "name": "Amina Holmes",
+        "score": 3767675,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 590,
+        "name": "ThaliaI",
+        "score": 3750778,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 591,
+        "name": "Hope",
+        "score": 3749535,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 592,
+        "name": "matias",
+        "score": 3747986,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 593,
+        "name": "Alissa",
+        "score": 3743522,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 594,
+        "name": "RyderE98",
+        "score": 3741931,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 595,
+        "name": "Kira",
+        "score": 3689695,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 596,
+        "name": "Santino",
+        "score": 3686924,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 597,
+        "name": "abraham",
+        "score": 3682942,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 598,
+        "name": "QKennedy",
+        "score": 3663697,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 599,
+        "name": "AriannaU77",
+        "score": 3662431,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 600,
+        "name": "Colin ",
+        "score": 3656351,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 601,
+        "name": "Damon_75",
+        "score": 3648347,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 602,
+        "name": "NMatthews",
+        "score": 3641943,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 603,
+        "name": "CooperL",
+        "score": 3638809,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 604,
+        "name": "KForbes98",
+        "score": 3629228,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 605,
+        "name": "Amanda",
+        "score": 3622630,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 606,
+        "name": "r knox",
+        "score": 3600591,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 607,
+        "name": "Ann ",
+        "score": 3600269,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 608,
+        "name": "Kinsley_Summers",
+        "score": 3598867,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 609,
+        "name": "SteveNunez",
+        "score": 3591058,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 610,
+        "name": "CamillaConway",
+        "score": 3590557,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 611,
+        "name": "Jayvion_N85",
+        "score": 3582753,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 612,
+        "name": "Hayley_93",
+        "score": 3578485,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 613,
+        "name": "Paige",
+        "score": 3573002,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 614,
+        "name": "Neymar_H",
+        "score": 3550809,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 615,
+        "name": "BryceL",
+        "score": 3547210,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 616,
+        "name": "RaulB78",
+        "score": 3515057,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 617,
+        "name": "2Davion",
+        "score": 3511213,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 618,
+        "name": "Bryleigh",
+        "score": 3493460,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 619,
+        "name": "Ellis_79",
+        "score": 3478203,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 620,
+        "name": "jada ",
+        "score": 3465630,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 621,
+        "name": "Monica ",
+        "score": 3434918,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 622,
+        "name": "Isabella79",
+        "score": 3416305,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 623,
+        "name": "Uriel ",
+        "score": 3400313,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 624,
+        "name": "Dwayne",
+        "score": 3390678,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 625,
+        "name": "Brielle",
+        "score": 3385107,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 626,
+        "name": "ChanceWare78",
+        "score": 3381676,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 627,
+        "name": "Princeton Gomez",
+        "score": 3375414,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 628,
+        "name": "brantley s",
+        "score": 3362866,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 629,
+        "name": "rowan f",
+        "score": 3318396,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 630,
+        "name": "Beau",
+        "score": 3309800,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 631,
+        "name": "1joy a",
+        "score": 3309345,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 632,
+        "name": "mavericko",
+        "score": 3308333,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 633,
+        "name": "giovannai",
+        "score": 3299497,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 634,
+        "name": "a wang",
+        "score": 3286238,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 635,
+        "name": "case",
+        "score": 3284405,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 636,
+        "name": "Hezekiah Price",
+        "score": 3279184,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 637,
+        "name": "LennoxOneal",
+        "score": 3276948,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 638,
+        "name": "Danny",
+        "score": 3250595,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 639,
+        "name": "Elin_R89",
+        "score": 3247646,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 640,
+        "name": "Giuliana ",
+        "score": 3246183,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 641,
+        "name": "Spencer ",
+        "score": 3239174,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 642,
+        "name": "noah c",
+        "score": 3234505,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 643,
+        "name": "khaleesi ",
+        "score": 3231321,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 644,
+        "name": "8umann",
+        "score": 3223029,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 645,
+        "name": "Braeden ",
+        "score": 3211085,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 646,
+        "name": "AnnaleePerry",
+        "score": 3205587,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 647,
+        "name": "ronan ",
+        "score": 3199806,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 648,
+        "name": "everetta",
+        "score": 3178787,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 649,
+        "name": "Arjun ",
+        "score": 3172250,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 650,
+        "name": "jamie n",
+        "score": 3170608,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 651,
+        "name": "5Trinity",
+        "score": 3169667,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 652,
+        "name": "anya ",
+        "score": 3143728,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 653,
+        "name": "Karen_U",
+        "score": 3140478,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 654,
+        "name": "I Good",
+        "score": 3115742,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 655,
+        "name": "rashade",
+        "score": 3095459,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 656,
+        "name": "Spencer Khan",
+        "score": 3093639,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 657,
+        "name": "AlmaJ82",
+        "score": 3090694,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 658,
+        "name": "Gilbert",
+        "score": 3078000,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 659,
+        "name": "kase",
+        "score": 3069347,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 660,
+        "name": "janessa ",
+        "score": 3056595,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 661,
+        "name": "Madden92",
+        "score": 3025776,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 662,
+        "name": "Jazlynn N",
+        "score": 3018225,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 663,
+        "name": "10Weston76",
+        "score": 3013924,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 664,
+        "name": "Reid",
+        "score": 2999050,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 665,
+        "name": "wyatt_hartman",
+        "score": 2996413,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 666,
+        "name": "1RSellers",
+        "score": 2992382,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 667,
+        "name": "jamiev",
+        "score": 2992315,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 668,
+        "name": "3Lainey Finley",
+        "score": 2972196,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 669,
+        "name": "Brennan ",
+        "score": 2970166,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 670,
+        "name": "juelz",
+        "score": 2962114,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 671,
+        "name": "Mayson ",
+        "score": 2951140,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 672,
+        "name": "cassandra",
+        "score": 2948189,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 673,
+        "name": "journee shea",
+        "score": 2933484,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 674,
+        "name": "Noor77",
+        "score": 2931633,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 675,
+        "name": "Cynthia_Q81",
+        "score": 2930140,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 676,
+        "name": "Emiliano ",
+        "score": 2909302,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 677,
+        "name": "Alyssa",
+        "score": 2885811,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 678,
+        "name": "Lennox_81",
+        "score": 2878866,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 679,
+        "name": "Cruz",
+        "score": 2872096,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 680,
+        "name": "KaysonV",
+        "score": 2868191,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 681,
+        "name": "Zachary_U80",
+        "score": 2858927,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 682,
+        "name": "Henry83",
+        "score": 2836909,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 683,
+        "name": "D_Combs86",
+        "score": 2826850,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 684,
+        "name": "Maximiliano",
+        "score": 2820845,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 685,
+        "name": "QCombs76",
+        "score": 2815341,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 686,
+        "name": "Joseph",
+        "score": 2807777,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 687,
+        "name": "Michael",
+        "score": 2799717,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 688,
+        "name": "joselyn",
+        "score": 2797964,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 689,
+        "name": "Joe_76",
+        "score": 2785421,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 690,
+        "name": "qvaldez",
+        "score": 2777595,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 691,
+        "name": "Kayla ",
+        "score": 2776223,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 692,
+        "name": "Dennis95",
+        "score": 2774359,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 693,
+        "name": "elliot",
+        "score": 2765393,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 694,
+        "name": "3andre",
+        "score": 2758723,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 695,
+        "name": "Ryland ",
+        "score": 2755520,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 696,
+        "name": "CassidyWebb",
+        "score": 2751936,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 697,
+        "name": "IvoryB",
+        "score": 2751233,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 698,
+        "name": "J_Parks",
+        "score": 2744799,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 699,
+        "name": "brylee",
+        "score": 2739766,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 700,
+        "name": "liliana mccormick",
+        "score": 2704667,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 701,
+        "name": "Alessandra X",
+        "score": 2685697,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 702,
+        "name": "Kendra",
+        "score": 2681585,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 703,
+        "name": "Jocelynn92",
+        "score": 2677301,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 704,
+        "name": "JessaX",
+        "score": 2674032,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 705,
+        "name": "AmarePotter",
+        "score": 2655860,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 706,
+        "name": "Y_Wallace",
+        "score": 2654684,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 707,
+        "name": "SolomonAlexander",
+        "score": 2639841,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 708,
+        "name": "jaziel",
+        "score": 2618153,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 709,
+        "name": "YousefP89",
+        "score": 2615324,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 710,
+        "name": "WillowYork98",
+        "score": 2613466,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 711,
+        "name": "CamdenK",
+        "score": 2610766,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 712,
+        "name": "Corey",
+        "score": 2599196,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 713,
+        "name": "Ember_W97",
+        "score": 2593352,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 714,
+        "name": "HelenQ",
+        "score": 2582577,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 715,
+        "name": "kalel",
+        "score": 2580862,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 716,
+        "name": "Valentin",
+        "score": 2554084,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 717,
+        "name": "Emmanuel ",
+        "score": 2552624,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 718,
+        "name": "Rashad ",
+        "score": 2527733,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 719,
+        "name": "nicholas c",
+        "score": 2520641,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 720,
+        "name": "JocelynK85",
+        "score": 2495528,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 721,
+        "name": "Uriel",
+        "score": 2491734,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 722,
+        "name": "Saige W",
+        "score": 2467012,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 723,
+        "name": "EverleighL",
+        "score": 2453223,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 724,
+        "name": "jayvionhuerta",
+        "score": 2436285,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 725,
+        "name": "Ruth Mueller",
+        "score": 2433028,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 726,
+        "name": "fabian d",
+        "score": 2424483,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 727,
+        "name": "S Benton",
+        "score": 2413971,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 728,
+        "name": "ryann",
+        "score": 2401006,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 729,
+        "name": "Milan",
+        "score": 2396368,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 730,
+        "name": "KylieC",
+        "score": 2390246,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 731,
+        "name": "LiliaP97",
+        "score": 2381860,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 732,
+        "name": "evie",
+        "score": 2380257,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 733,
+        "name": "Devin",
+        "score": 2372559,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 734,
+        "name": "QPetty77",
+        "score": 2360130,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 735,
+        "name": "cullen ",
+        "score": 2342583,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 736,
+        "name": "Haley_95",
+        "score": 2322739,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 737,
+        "name": "9Caleb",
+        "score": 2307022,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 738,
+        "name": "Christopher87",
+        "score": 2303178,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 739,
+        "name": "Mateo_J",
+        "score": 2296609,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 740,
+        "name": "Jaxon ",
+        "score": 2294834,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 741,
+        "name": "darian ",
+        "score": 2292451,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 742,
+        "name": "Alfred",
+        "score": 2269215,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 743,
+        "name": "3Jamie_H",
+        "score": 2249975,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 744,
+        "name": "oflynn",
+        "score": 2228961,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 745,
+        "name": "roberto l",
+        "score": 2221698,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 746,
+        "name": "Sutton Galloway",
+        "score": 2220085,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 747,
+        "name": "Jesus_92",
+        "score": 2207304,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 748,
+        "name": "Alana G",
+        "score": 2206672,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 749,
+        "name": "caitlin ",
+        "score": 2203835,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 750,
+        "name": "thaddeusa",
+        "score": 2191258,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 751,
+        "name": "aliviamcfarland",
+        "score": 2166570,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 752,
+        "name": "Louie93",
+        "score": 2164596,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 753,
+        "name": "Jaida",
+        "score": 2154309,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 754,
+        "name": "Mckinley91",
+        "score": 2153135,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 755,
+        "name": "Keaton",
+        "score": 2151098,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 756,
+        "name": "Charlize C",
+        "score": 2149957,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 757,
+        "name": "cameron y",
+        "score": 2147475,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 758,
+        "name": "Isla",
+        "score": 2136350,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 759,
+        "name": "Jayden",
+        "score": 2135343,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 760,
+        "name": "ashton bartlett",
+        "score": 2131263,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 761,
+        "name": "V_Hickman77",
+        "score": 2131250,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 762,
+        "name": "Natasha",
+        "score": 2124709,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 763,
+        "name": "Everett",
+        "score": 2120896,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 764,
+        "name": "Edward",
+        "score": 2117704,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 765,
+        "name": "adriens",
+        "score": 2110464,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 766,
+        "name": "Atticus Lucas",
+        "score": 2087113,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 767,
+        "name": "Breanna_94",
+        "score": 2079301,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 768,
+        "name": "Stella80",
+        "score": 2078000,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 769,
+        "name": "presley",
+        "score": 2065703,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 770,
+        "name": "JaidaG86",
+        "score": 2034458,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 771,
+        "name": "P_Sharp",
+        "score": 2029135,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 772,
+        "name": "1Omari ",
+        "score": 2020075,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 773,
+        "name": "vivianaj",
+        "score": 2000341,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 774,
+        "name": "Jayvion_76",
+        "score": 1997782,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 775,
+        "name": "rpeterson",
+        "score": 1990430,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 776,
+        "name": "ApolloT",
+        "score": 1982659,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 777,
+        "name": "SaulCameron",
+        "score": 1974982,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 778,
+        "name": "Brinley ",
+        "score": 1964564,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 779,
+        "name": "nasir",
+        "score": 1964558,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 780,
+        "name": "adaline c",
+        "score": 1962551,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 781,
+        "name": "Noemi ",
+        "score": 1955241,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 782,
+        "name": "Gracelynn",
+        "score": 1941197,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 783,
+        "name": "Brooke95",
+        "score": 1938138,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 784,
+        "name": "Valentino Banks",
+        "score": 1935953,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 785,
+        "name": "7SVazquez",
+        "score": 1932149,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 786,
+        "name": "2Haiden_Wells88",
+        "score": 1929147,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 787,
+        "name": "IvannaE",
+        "score": 1922154,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 788,
+        "name": "Duke ",
+        "score": 1915440,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 789,
+        "name": "Lillian ",
+        "score": 1903297,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 790,
+        "name": "Luciana",
+        "score": 1890264,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 791,
+        "name": "5Cora_P77",
+        "score": 1889300,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 792,
+        "name": "1Caiden_Figueroa86",
+        "score": 1887865,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 793,
+        "name": "M_Pope",
+        "score": 1883365,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 794,
+        "name": "Juelz86",
+        "score": 1880443,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 795,
+        "name": "KnoxV",
+        "score": 1872401,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 796,
+        "name": "Joy",
+        "score": 1851660,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 797,
+        "name": "malaysiapratt",
+        "score": 1850775,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 798,
+        "name": "Jabari86",
+        "score": 1827990,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 799,
+        "name": "LKaiser",
+        "score": 1824404,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 800,
+        "name": "raven_b",
+        "score": 1817712,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 801,
+        "name": "Dilan",
+        "score": 1816196,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 802,
+        "name": "Seamus",
+        "score": 1792001,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 803,
+        "name": "Kyrie91",
+        "score": 1784037,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 804,
+        "name": "Finley_97",
+        "score": 1776019,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 805,
+        "name": "melina",
+        "score": 1775322,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 806,
+        "name": "MariahK",
+        "score": 1772162,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 807,
+        "name": "Lilah",
+        "score": 1763260,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 808,
+        "name": "IsaiasN",
+        "score": 1759669,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 809,
+        "name": "allyt",
+        "score": 1747091,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 810,
+        "name": "JHolloway85",
+        "score": 1739549,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 811,
+        "name": "AmberT",
+        "score": 1733207,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 812,
+        "name": "Kinley87",
+        "score": 1730721,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 813,
+        "name": "6Orlando ",
+        "score": 1717041,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 814,
+        "name": "zaria baxter",
+        "score": 1712691,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 815,
+        "name": "Axl ",
+        "score": 1708087,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 816,
+        "name": "Elena_S83",
+        "score": 1694106,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 817,
+        "name": "Pedro",
+        "score": 1666166,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 818,
+        "name": "Adeline",
+        "score": 1650949,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 819,
+        "name": "Mustafa_89",
+        "score": 1648666,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 820,
+        "name": "Logan",
+        "score": 1646636,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 821,
+        "name": "QAllen85",
+        "score": 1641222,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 822,
+        "name": "DBlackburn84",
+        "score": 1624011,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 823,
+        "name": "CKelly",
+        "score": 1616420,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 824,
+        "name": "wren ",
+        "score": 1610174,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 825,
+        "name": "Roland",
+        "score": 1602243,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 826,
+        "name": "Demetrius ",
+        "score": 1576381,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 827,
+        "name": "Q_Casey",
+        "score": 1570557,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 828,
+        "name": "Calvin_Henry",
+        "score": 1560348,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 829,
+        "name": "PClark",
+        "score": 1527647,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 830,
+        "name": "Roselyn",
+        "score": 1521787,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 831,
+        "name": "Dante_97",
+        "score": 1508910,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 832,
+        "name": "Everly",
+        "score": 1507773,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 833,
+        "name": "Elliot",
+        "score": 1494009,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 834,
+        "name": "3Tristen ",
+        "score": 1455251,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 835,
+        "name": "Natalia X",
+        "score": 1448774,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 836,
+        "name": "lilliana berg",
+        "score": 1442019,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 837,
+        "name": "ZaidenC",
+        "score": 1436712,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 838,
+        "name": "BrunoA",
+        "score": 1429955,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 839,
+        "name": "Lilah ",
+        "score": 1423730,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 840,
+        "name": "Brynn",
+        "score": 1406576,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 841,
+        "name": "SAdkins88",
+        "score": 1394841,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 842,
+        "name": "APruitt83",
+        "score": 1391869,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 843,
+        "name": "hwolfe",
+        "score": 1385308,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 844,
+        "name": "Jon_79",
+        "score": 1380451,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 845,
+        "name": "Aden",
+        "score": 1355166,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 846,
+        "name": "DexterI",
+        "score": 1332770,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 847,
+        "name": "Magnolia_Walters",
+        "score": 1319004,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 848,
+        "name": "Kynlee U",
+        "score": 1318110,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 849,
+        "name": "NKline",
+        "score": 1314789,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 850,
+        "name": "Yamileth_78",
+        "score": 1313668,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 851,
+        "name": "Mariana_85",
+        "score": 1296134,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 852,
+        "name": "cameron ",
+        "score": 1293102,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 853,
+        "name": "NatashaCarney94",
+        "score": 1266776,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 854,
+        "name": "Porter Holloway",
+        "score": 1254049,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 855,
+        "name": "Bryant ",
+        "score": 1253617,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 856,
+        "name": "Griffin ",
+        "score": 1250641,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 857,
+        "name": "YGilmore",
+        "score": 1241518,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 858,
+        "name": "Alfredo ",
+        "score": 1229933,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 859,
+        "name": "Mack77",
+        "score": 1214480,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 860,
+        "name": "kaylamorgan",
+        "score": 1208237,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 861,
+        "name": "Dayton87",
+        "score": 1186689,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 862,
+        "name": "DJacobs83",
+        "score": 1164906,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 863,
+        "name": "BryleighPhillips",
+        "score": 1158374,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 864,
+        "name": "X_Cain79",
+        "score": 1127035,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 865,
+        "name": "maliahs",
+        "score": 1093044,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 866,
+        "name": "MiaShepherd",
+        "score": 1090180,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 867,
+        "name": "JohnnyV",
+        "score": 1075847,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 868,
+        "name": "Andre ",
+        "score": 1071523,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 869,
+        "name": "MelissaD",
+        "score": 1066252,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 870,
+        "name": "Vance ",
+        "score": 1064784,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 871,
+        "name": "ClaudiaO",
+        "score": 1046974,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 872,
+        "name": "Carmen W",
+        "score": 1045431,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 873,
+        "name": "Guillermo_82",
+        "score": 1045262,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 874,
+        "name": "Athena",
+        "score": 1037525,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 875,
+        "name": "G French",
+        "score": 1022867,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 876,
+        "name": "Walker",
+        "score": 1017962,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 877,
+        "name": "F_Fernandez",
+        "score": 1004783,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 878,
+        "name": "Noe",
+        "score": 993709,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 879,
+        "name": "leandro ",
+        "score": 988160,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 880,
+        "name": "jaxtonk",
+        "score": 977494,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 881,
+        "name": "G Douglas",
+        "score": 976211,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 882,
+        "name": "augustus prince",
+        "score": 969462,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 883,
+        "name": "w davila",
+        "score": 960273,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 884,
+        "name": "malaki",
+        "score": 950444,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 885,
+        "name": "Lilian",
+        "score": 949542,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 886,
+        "name": "Easton Long",
+        "score": 936675,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 887,
+        "name": "AdenM88",
+        "score": 919670,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 888,
+        "name": "Angela ",
+        "score": 913883,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 889,
+        "name": "Mark W",
+        "score": 913785,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 890,
+        "name": "DestinyBuckley",
+        "score": 907532,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 891,
+        "name": "Giovani_90",
+        "score": 896298,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 892,
+        "name": "Rhea_79",
+        "score": 873067,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 893,
+        "name": "5HPerez93",
+        "score": 856779,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 894,
+        "name": "Miriam77",
+        "score": 852208,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 895,
+        "name": "Bethany",
+        "score": 848819,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 896,
+        "name": "9Maeve",
+        "score": 843640,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 897,
+        "name": "lkrueger",
+        "score": 839498,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 898,
+        "name": "XColeman",
+        "score": 833779,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 899,
+        "name": "BHines",
+        "score": 827306,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 900,
+        "name": "MelinaHanson",
+        "score": 821449,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 901,
+        "name": "Levi ",
+        "score": 819167,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 902,
+        "name": "Andres ",
+        "score": 815831,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 903,
+        "name": "josephine ",
+        "score": 804402,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 904,
+        "name": "Reyansh_Schmidt79",
+        "score": 803169,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 905,
+        "name": "christina",
+        "score": 793258,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 906,
+        "name": "Hadleigh",
+        "score": 784301,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 907,
+        "name": "marcush",
+        "score": 780094,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 908,
+        "name": "Nathaniel",
+        "score": 778217,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 909,
+        "name": "Laila ",
+        "score": 763319,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 910,
+        "name": "Steven ",
+        "score": 763130,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 911,
+        "name": "pablo_vega",
+        "score": 750971,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 912,
+        "name": "abigail ",
+        "score": 742633,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 913,
+        "name": "Ophelia",
+        "score": 740607,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 914,
+        "name": "eramos",
+        "score": 722069,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 915,
+        "name": "Vicente_95",
+        "score": 714068,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 916,
+        "name": "alexis ",
+        "score": 698246,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 917,
+        "name": "Roland ",
+        "score": 682540,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 918,
+        "name": "itzel ",
+        "score": 669339,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 919,
+        "name": "Harley",
+        "score": 644790,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 920,
+        "name": "A_Garrett79",
+        "score": 641683,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 921,
+        "name": "j hicks",
+        "score": 640603,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 922,
+        "name": "damien",
+        "score": 638571,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 923,
+        "name": "quincy gould",
+        "score": 636759,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 924,
+        "name": "3Micah_U98",
+        "score": 634477,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 925,
+        "name": "JulieMckay91",
+        "score": 628847,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 926,
+        "name": "F Winters",
+        "score": 625123,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 927,
+        "name": "Dayana_C90",
+        "score": 622450,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 928,
+        "name": "UMedina",
+        "score": 613241,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 929,
+        "name": "edickson",
+        "score": 586100,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 930,
+        "name": "Summer",
+        "score": 583382,
+        "type": 2,
+        "avatar": 3
+      },
+      {
+        "index": 931,
+        "name": "2Kelvin ",
+        "score": 579861,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 932,
+        "name": "CharlesSloan",
+        "score": 572278,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 933,
+        "name": "Alivia",
+        "score": 561215,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 934,
+        "name": "LuccaI",
+        "score": 546949,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 935,
+        "name": "Kaiden ",
+        "score": 539113,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 936,
+        "name": "Braylon ",
+        "score": 521266,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 937,
+        "name": "SMarquez",
+        "score": 495249,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 938,
+        "name": "lyricl",
+        "score": 486439,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 939,
+        "name": "Stevie ",
+        "score": 482934,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 940,
+        "name": "Vera Woodward",
+        "score": 469892,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 941,
+        "name": "Sam",
+        "score": 466117,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 942,
+        "name": "I Macdonald",
+        "score": 444955,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 943,
+        "name": "Channing76",
+        "score": 436869,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 944,
+        "name": "daxton ",
+        "score": 431428,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 945,
+        "name": "Ethan89",
+        "score": 430760,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 946,
+        "name": "harold",
+        "score": 427845,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 947,
+        "name": "OLeach",
+        "score": 416246,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 948,
+        "name": "leoa",
+        "score": 409847,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 949,
+        "name": "6Erick90",
+        "score": 397356,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 950,
+        "name": "10GriffinHenderson",
+        "score": 388956,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 951,
+        "name": "Sylvia_97",
+        "score": 370876,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 952,
+        "name": "Rodney",
+        "score": 369537,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 953,
+        "name": "maia r",
+        "score": 365819,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 954,
+        "name": "hollands",
+        "score": 352954,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 955,
+        "name": "Adalynn_Todd96",
+        "score": 349258,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 956,
+        "name": "rene_u",
+        "score": 336377,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 957,
+        "name": "Malaki",
+        "score": 333852,
+        "type": 1,
+        "avatar": 2
+      },
+      {
+        "index": 958,
+        "name": "Kira U",
+        "score": 331754,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 959,
+        "name": "charley",
+        "score": 330091,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 960,
+        "name": "F Yang",
+        "score": 330070,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 961,
+        "name": "Hallie ",
+        "score": 307960,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 962,
+        "name": "HassanF87",
+        "score": 305731,
+        "type": 1,
+        "avatar": 4
+      },
+      {
+        "index": 963,
+        "name": "hadassahs",
+        "score": 302049,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 964,
+        "name": "Annalise Reynolds",
+        "score": 294487,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 965,
+        "name": "MylaRoss",
+        "score": 289828,
+        "type": 2,
+        "avatar": 1
+      },
+      {
+        "index": 966,
+        "name": "Maisie_81",
+        "score": 285770,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 967,
+        "name": "Kyndall Q",
+        "score": 285394,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 968,
+        "name": "BGamble85",
+        "score": 263947,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 969,
+        "name": "Noel",
+        "score": 252277,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 970,
+        "name": "G_Anthony",
+        "score": 237298,
+        "type": 2,
+        "avatar": 6
+      },
+      {
+        "index": 971,
+        "name": "Millie_Melton",
+        "score": 220177,
+        "type": 2,
+        "avatar": 5
+      },
+      {
+        "index": 972,
+        "name": "QFitzpatrick97",
+        "score": 213736,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 973,
+        "name": "5kamryn levine",
+        "score": 210402,
+        "type": 1,
+        "avatar": 8
+      },
+      {
+        "index": 974,
+        "name": "Alisson ",
+        "score": 210203,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 975,
+        "name": "Jensen95",
+        "score": 210000,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 976,
+        "name": "haven",
+        "score": 163108,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 977,
+        "name": "Jenny_Rollins84",
+        "score": 155963,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 978,
+        "name": "Rylie_77",
+        "score": 151874,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 979,
+        "name": "Joselyn ",
+        "score": 138494,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 980,
+        "name": "Huxley E",
+        "score": 135874,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 981,
+        "name": "Callan ",
+        "score": 135002,
+        "type": 1,
+        "avatar": 5
+      },
+      {
+        "index": 982,
+        "name": "QSilva",
+        "score": 128570,
+        "type": 1,
+        "avatar": 7
+      },
+      {
+        "index": 983,
+        "name": "maryami",
+        "score": 124480,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 984,
+        "name": "YMayo75",
+        "score": 103588,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 985,
+        "name": "elliot ",
+        "score": 89372,
+        "type": 1,
+        "avatar": 1
+      },
+      {
+        "index": 986,
+        "name": "MelodyChurch",
+        "score": 87892,
+        "type": 2,
+        "avatar": 8
+      },
+      {
+        "index": 987,
+        "name": "W_Parrish",
+        "score": 76620,
+        "type": 2,
+        "avatar": 2
+      },
+      {
+        "index": 988,
+        "name": "Boden Humphrey",
+        "score": 70410,
+        "type": 1,
+        "avatar": 0
+      },
+      {
+        "index": 989,
+        "name": "Misael",
+        "score": 69338,
+        "type": 1,
+        "avatar": 3
+      },
+      {
+        "index": 990,
+        "name": "Elizabeth_Mejia88",
+        "score": 66310,
+        "type": 2,
+        "avatar": 4
+      },
+      {
+        "index": 991,
+        "name": "FisherBoone94",
+        "score": 63863,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 992,
+        "name": "Hector_Price",
+        "score": 59416,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 993,
+        "name": "Julianna ",
+        "score": 42836,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 994,
+        "name": "W_Stafford89",
+        "score": 40782,
+        "type": 1,
+        "avatar": 6
+      },
+      {
+        "index": 995,
+        "name": "Harley_S75",
+        "score": 40012,
+        "type": 2,
+        "avatar": 9
+      },
+      {
+        "index": 996,
+        "name": "YCarlson",
+        "score": 23581,
+        "type": 2,
+        "avatar": 0
+      },
+      {
+        "index": 997,
+        "name": "Marilyn",
+        "score": 14690,
+        "type": 2,
+        "avatar": 7
+      },
+      {
+        "index": 998,
+        "name": "7GordonU",
+        "score": 13876,
+        "type": 1,
+        "avatar": 9
+      },
+      {
+        "index": 999,
+        "name": "Q_Schmidt96",
+        "score": 1621,
+        "type": 1,
+        "avatar": 7
+      }
+    ]
+  }
