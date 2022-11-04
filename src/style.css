@@ -1,5 +1,12 @@
+html,
 body {
     overflow: hidden;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
     background-color: black;
+    width: 100%;
+    heigth: auto;
+}
+canvas {
+    margin: 0 auto;
 }

@@ -16,7 +16,8 @@ const avatarUrl =
 const getAvatarUrl = (type: number, avatar: number) => `${avatarUrl}/${type}/${avatar}.png`;
 
 // CANVAS
-const gameWidth = 600;
+const portrait = window.matchMedia("(orientation: portrait)");
+const gameWidth = 800;
 const gameHeight = 400;
 
 const app = new Application({
@@ -92,6 +93,7 @@ window.onload = async (): Promise<void> => {
     document.body.appendChild(app.view);
 
     resizeCanvas();
+
     app.stage.interactive = true;
 };
 
@@ -114,14 +116,41 @@ async function loadGameAssets(): Promise<void> {
 }
 
 // RESIZE CANVAS
+
 function resizeCanvas(): void {
-    const resize = () => {
-        app.renderer.resize(window.innerWidth, window.innerHeight);
-        app.stage.scale.x = window.innerWidth / gameWidth;
-        app.stage.scale.y = window.innerHeight / gameHeight;
-    };
+    // on init
+    if (portrait.matches) {
+        // Portrait mode
+        console.log("init Portrait");
+        app.renderer.resize(gameHeight, gameWidth);
+    } else {
+        // Landscape mode
+        console.log("init Landscape");
+        app.renderer.resize(gameWidth, gameHeight);
+    }
 
-    resize();
-
-    window.addEventListener("resize", resize);
+    // on change
+    portrait.addEventListener("change", function (e) {
+        if (e.matches) {
+            // Portrait mode
+            console.log("Portrait");
+            app.renderer.resize(gameHeight, gameWidth);
+        } else {
+            // Landscape mode
+            console.log("Landscape");
+            app.renderer.resize(gameWidth, gameHeight);
+        }
+    });
 }
+
+// function resizeCanvas(): void {
+//     const resize = () => {
+//         app.renderer.resize(window.innerWidth, window.innerHeight);
+//         app.stage.scale.x = window.innerWidth / gameWidth;
+//         app.stage.scale.y = window.innerHeight / gameHeight;
+//     };
+
+//     resize();
+
+//     window.addEventListener("resize", resize);
+// }
