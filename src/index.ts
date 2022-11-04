@@ -1,5 +1,6 @@
 import { Application, Loader, Text, Container, Sprite, Texture } from "pixi.js";
 import { pIndex, pName, pScore } from "./styles";
+import { Scrollbox } from "pixi-scrollbox";
 import "./style.css";
 
 // declare const VERSION: string;
@@ -26,6 +27,16 @@ const app = new Application({
     height: gameHeight,
 });
 
+// create the scrollbox
+// const scrollbox = new Scrollbox({ boxWidth: gameWidth, boxHeight: gameHeight });
+const scrollOptions = { boxWidth: gameWidth, boxHeight: 400 };
+const scrollbox = new Scrollbox(scrollOptions);
+// const sprite = scrollbox.content.addChild(new Sprite(Texture.WHITE));
+const sprite = scrollbox.content.addChild(new Sprite());
+sprite.width = gameWidth;
+sprite.height = gameHeight;
+// sprite.tint = 0xff0000;
+
 // GET DATA PLAYERS & QUOTES
 const fetchPlayersAndQuotes = async () => {
     const [playersResponse, quotesResponse] = await Promise.all([fetch(urlPlayers), fetch(urlQuotes)]);
@@ -48,12 +59,12 @@ fetchPlayersAndQuotes()
         // console.log("players =>", players["players"]);
 
         // variables
-        let y = 0;
+        let y = 20;
         // const playerLen = players["players"].length;
 
         // PLAYERS CONTANER
-        for (let i = 0; i < 5; i++) {
-            y += 50;
+        for (let i = 0; i < 15; i++) {
+            if (i !== 0) y += 50;
             const playerContainer = new Container();
             //
             const { index, name, score, type, avatar } = players["players"][i];
@@ -77,8 +88,9 @@ fetchPlayersAndQuotes()
             playerContainer.addChild(playerIndex).addChild(playerName).addChild(playerScore);
             playerContainer.addChild(playerAvatar);
             playerContainer.position.set(10, y);
-            app.stage.addChild(playerContainer);
             // player.anchor.set(0.5, 0.5);
+            scrollbox.content.addChild(playerContainer);
+            // app.stage.addChild(playerContainer);
         }
     })
     .catch((error) => {
@@ -88,9 +100,11 @@ fetchPlayersAndQuotes()
 
 // ON LOAD
 window.onload = async (): Promise<void> => {
-    await loadGameAssets();
+    // await loadGameAssets();
 
     document.body.appendChild(app.view);
+    // scrollbox.update();
+    app.stage.addChild(scrollbox);
 
     resizeCanvas();
 
@@ -98,22 +112,22 @@ window.onload = async (): Promise<void> => {
 };
 
 // LOAD ASSETS
-async function loadGameAssets(): Promise<void> {
-    return new Promise((res, rej) => {
-        const loader = Loader.shared;
-        loader.add("rabbit", "./assets/simpleSpriteSheet.json");
+// async function loadGameAssets(): Promise<void> {
+//     return new Promise((res, rej) => {
+//         const loader = Loader.shared;
+//         loader.add("rabbit", "./assets/simpleSpriteSheet.json");
 
-        loader.onComplete.once(() => {
-            res();
-        });
+//         loader.onComplete.once(() => {
+//             res();
+//         });
 
-        loader.onError.once(() => {
-            rej();
-        });
+//         loader.onError.once(() => {
+//             rej();
+//         });
 
-        loader.load();
-    });
-}
+//         loader.load();
+//     });
+// }
 
 // RESIZE CANVAS
 
@@ -128,6 +142,7 @@ function resizeCanvas(): void {
         console.log("init Landscape");
         app.renderer.resize(gameWidth, gameHeight);
     }
+    scrollbox.update();
 
     // on change
     portrait.addEventListener("change", function (e) {
@@ -140,6 +155,7 @@ function resizeCanvas(): void {
             console.log("Landscape");
             app.renderer.resize(gameWidth, gameHeight);
         }
+        scrollbox.update();
     });
 }
 
