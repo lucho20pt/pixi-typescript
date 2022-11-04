@@ -5,8 +5,9 @@ body {
     padding: 0;
     background-color: black;
     width: 100%;
-    heigth: auto;
+    height: auto;
 }
 canvas {
+    display: block;
     margin: 0 auto;
 }
