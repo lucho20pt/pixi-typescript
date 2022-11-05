@@ -1,21 +1,21 @@
 export const pIndex = {
-    fill: 0x212121,
+    fill: 0xffffff,
     fontFamily: "Trebushet MS",
     fontSize: 16,
     wordWrap: true,
-    wordWrapWidth: 0,
+    wordWrapWidth: 50,
 };
 export const pName = {
-    fill: 0x212121,
+    fill: 0xffffff,
     fontFamily: "Trebushet MS",
-    fontSize: 16,
+    fontSize: 18,
     wordWrap: true,
-    wordWrapWidth: 100,
+    wordWrapWidth: 120,
 };
 export const pScore = {
-    fill: 0x212121,
+    fill: 0xffffff,
     fontFamily: "Trebushet MS",
-    fontSize: 14,
+    fontSize: 16,
     wordWrap: true,
     wordWrapWidth: 100,
 };

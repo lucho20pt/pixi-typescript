@@ -20,19 +20,17 @@ let gameWidth = 725;
 let gameHeight = 400;
 
 const app = new Application({
-    backgroundColor: 0x00bbbb,
+    backgroundColor: 0x00dddd,
     // backgroundColor: 0x000000,
     width: gameWidth,
     height: gameHeight,
 });
 
 // scrollbox
-const scrollOptions = { boxWidth: gameWidth, boxHeight: gameHeight };
-const scrollbox = new Scrollbox(scrollOptions);
+const scrollbox = new Scrollbox({ boxWidth: gameWidth, boxHeight: gameHeight, overflowX: "hidden" });
 const sprite = scrollbox.content.addChild(new Sprite());
 sprite.width = gameWidth;
 sprite.height = gameHeight;
-// sprite.tint = 0xff0000;
 
 // get AVATAR
 const getAvatarUrl = (type: number, avatar: number) => `${avatarUrl}/${type}/${avatar}.png`;
@@ -63,15 +61,15 @@ fetchPlayersAndQuotes()
         // const playerLen = players["players"].length;
 
         // PLAYERS CONTANER
-        for (let i = 0; i < 15; i++) {
+        for (let i = 0; i < 1000; i++) {
             if (i !== 0) y += 50;
 
             // player SPRITE
             const playerSprite = new Sprite(Texture.WHITE);
             playerSprite.width = gameHeight;
-            playerSprite.height = 50 - 3;
+            playerSprite.height = 50 - 5;
             playerSprite.anchor.set(0, 0.5);
-            playerSprite.tint = 0xffffff;
+            playerSprite.tint = 0x00aaaa;
 
             // player CONTAINER
             const playerContainer = new Container();
@@ -79,6 +77,7 @@ fetchPlayersAndQuotes()
 
             // player DESTRUCTER OBJ
             const { index, name, score, type, avatar } = players["players"][i];
+            score.toLocaleString();
             const texture = Texture.from(getAvatarUrl(type, avatar));
             // console.log(index, name, score, type, avatar);
             // console.log(getAvatarUrl(type, avatar));
@@ -87,7 +86,7 @@ fetchPlayersAndQuotes()
             const playerIndex = new Text(index, pIndex);
             const playerAvatar = new Sprite(texture);
             const playerName = new Text(name, pName);
-            const playerScore = new Text(score, pScore);
+            const playerScore = new Text(formatNumbers(score), pScore);
 
             // player SET
             playerIndex.position.set(10, 0);
@@ -96,8 +95,8 @@ fetchPlayersAndQuotes()
             playerAvatar.position.set(50, 0);
             playerAvatar.scale.set(0.2, 0.2);
 
-            playerName.position.set(100, 0);
-            playerScore.position.set(200, 0);
+            playerName.position.set(80, 0);
+            playerScore.position.set(180, 0);
 
             // player CONTAINER ADD
             playerContainer.addChild(playerIndex).addChild(playerName).addChild(playerScore);
@@ -154,6 +153,17 @@ function isPortrait(): void {
         app.renderer.resize(gameWidth, gameHeight);
         scrollbox.update();
     }
+}
+
+function formatNumbers(num: number) {
+    if (num === null) return;
+    return num
+        .toString()
+        .split("")
+        .reverse()
+        .map((digit, i) => (i != 0 && i % 3 === 0 ? `${digit},` : digit))
+        .reverse()
+        .join("");
 }
 
 // LOAD ASSETS
