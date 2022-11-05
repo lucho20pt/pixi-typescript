@@ -11,33 +11,33 @@ const urlQuotes = "./assets/data/players.json";
 // const urlPlayers = "https://testing.cdn.arkadiumhosted.com/gameExamples/programming-assignments/senior-core-developer/players.json";
 // const urlQuotes = "https://testing.cdn.arkadiumhosted.com/gameExamples/programming-assignments/senior-core-developer/quotes.json";
 
-// const avatarPromises: string[] = [];
 const avatarUrl =
     "https://testing.cdn.arkadiumhosted.com/gameExamples/programming-assignments/senior-core-developer/avatars";
-const getAvatarUrl = (type: number, avatar: number) => `${avatarUrl}/${type}/${avatar}.png`;
 
 // CANVAS
 const portrait = window.matchMedia("(orientation: portrait)");
-const gameWidth = 800;
-const gameHeight = 400;
+let gameWidth = 725;
+let gameHeight = 400;
 
 const app = new Application({
     backgroundColor: 0x00bbbb,
+    // backgroundColor: 0x000000,
     width: gameWidth,
     height: gameHeight,
 });
 
-// create the scrollbox
-// const scrollbox = new Scrollbox({ boxWidth: gameWidth, boxHeight: gameHeight });
-const scrollOptions = { boxWidth: gameWidth, boxHeight: 400 };
+// scrollbox
+const scrollOptions = { boxWidth: gameWidth, boxHeight: gameHeight };
 const scrollbox = new Scrollbox(scrollOptions);
-// const sprite = scrollbox.content.addChild(new Sprite(Texture.WHITE));
 const sprite = scrollbox.content.addChild(new Sprite());
 sprite.width = gameWidth;
 sprite.height = gameHeight;
 // sprite.tint = 0xff0000;
 
-// GET DATA PLAYERS & QUOTES
+// get AVATAR
+const getAvatarUrl = (type: number, avatar: number) => `${avatarUrl}/${type}/${avatar}.png`;
+
+// fetch DATA PLAYERS & QUOTES
 const fetchPlayersAndQuotes = async () => {
     const [playersResponse, quotesResponse] = await Promise.all([fetch(urlPlayers), fetch(urlQuotes)]);
 
@@ -51,46 +51,61 @@ const fetchPlayersAndQuotes = async () => {
     return [players, quotes];
 };
 
+// render DATA PLAYERS & QUOTES
 fetchPlayersAndQuotes()
     .then(([players, quotes]) => {
         players; // fetched players
         quotes; // fetched quotes
-        // console.log("quotes =>", quotes);
         // console.log("players =>", players["players"]);
 
-        // variables
+        // VARS
         let y = 20;
         // const playerLen = players["players"].length;
 
         // PLAYERS CONTANER
         for (let i = 0; i < 15; i++) {
             if (i !== 0) y += 50;
+
+            // player SPRITE
+            const playerSprite = new Sprite(Texture.WHITE);
+            playerSprite.width = gameHeight;
+            playerSprite.height = 50 - 3;
+            playerSprite.anchor.set(0, 0.5);
+            playerSprite.tint = 0xffffff;
+
+            // player CONTAINER
             const playerContainer = new Container();
-            //
+            playerContainer.addChild(playerSprite);
+
+            // player DESTRUCTER OBJ
             const { index, name, score, type, avatar } = players["players"][i];
             const texture = Texture.from(getAvatarUrl(type, avatar));
             // console.log(index, name, score, type, avatar);
             // console.log(getAvatarUrl(type, avatar));
-            //
+
+            // player CREATE
             const playerIndex = new Text(index, pIndex);
             const playerAvatar = new Sprite(texture);
             const playerName = new Text(name, pName);
             const playerScore = new Text(score, pScore);
-            //
+
+            // player SET
             playerIndex.position.set(10, 0);
+
             playerAvatar.anchor.set(0.5, 0.5);
             playerAvatar.position.set(50, 0);
             playerAvatar.scale.set(0.2, 0.2);
+
             playerName.position.set(100, 0);
             playerScore.position.set(200, 0);
 
-            // app.stage.addChild(player);
+            // player CONTAINER ADD
             playerContainer.addChild(playerIndex).addChild(playerName).addChild(playerScore);
             playerContainer.addChild(playerAvatar);
             playerContainer.position.set(10, y);
-            // player.anchor.set(0.5, 0.5);
+
+            // scrollbox ADD player CONTAINER
             scrollbox.content.addChild(playerContainer);
-            // app.stage.addChild(playerContainer);
         }
     })
     .catch((error) => {
@@ -101,15 +116,45 @@ fetchPlayersAndQuotes()
 // ON LOAD
 window.onload = async (): Promise<void> => {
     // await loadGameAssets();
-
     document.body.appendChild(app.view);
-    // scrollbox.update();
     app.stage.addChild(scrollbox);
-
     resizeCanvas();
-
     app.stage.interactive = true;
 };
+
+// RESIZE CANVAS
+function resizeCanvas(): void {
+    const resize = () => {
+        // set full screen
+        // app.renderer.resize(window.innerWidth, window.innerHeight);
+        // app.stage.scale.x = window.innerWidth / gameWidth;
+        // app.stage.scale.y = window.innerHeight / gameHeight;
+        isPortrait();
+        scrollbox.update();
+    };
+    resize();
+    window.addEventListener("resize", resize);
+}
+
+// isPortrait
+function isPortrait(): void {
+    // on init
+    if (portrait.matches) {
+        // Portrait mode
+        console.log("Portrait");
+        gameWidth = 400;
+        gameHeight = 725;
+        app.renderer.resize(gameWidth, gameHeight);
+        scrollbox.update();
+    } else {
+        // Landscape mode
+        console.log("Landscape");
+        gameWidth = 725;
+        gameHeight = 400;
+        app.renderer.resize(gameWidth, gameHeight);
+        scrollbox.update();
+    }
+}
 
 // LOAD ASSETS
 // async function loadGameAssets(): Promise<void> {
@@ -127,46 +172,4 @@ window.onload = async (): Promise<void> => {
 
 //         loader.load();
 //     });
-// }
-
-// RESIZE CANVAS
-
-function resizeCanvas(): void {
-    // on init
-    if (portrait.matches) {
-        // Portrait mode
-        console.log("init Portrait");
-        app.renderer.resize(gameHeight, gameWidth);
-    } else {
-        // Landscape mode
-        console.log("init Landscape");
-        app.renderer.resize(gameWidth, gameHeight);
-    }
-    scrollbox.update();
-
-    // on change
-    portrait.addEventListener("change", function (e) {
-        if (e.matches) {
-            // Portrait mode
-            console.log("Portrait");
-            app.renderer.resize(gameHeight, gameWidth);
-        } else {
-            // Landscape mode
-            console.log("Landscape");
-            app.renderer.resize(gameWidth, gameHeight);
-        }
-        scrollbox.update();
-    });
-}
-
-// function resizeCanvas(): void {
-//     const resize = () => {
-//         app.renderer.resize(window.innerWidth, window.innerHeight);
-//         app.stage.scale.x = window.innerWidth / gameWidth;
-//         app.stage.scale.y = window.innerHeight / gameHeight;
-//     };
-
-//     resize();
-
-//     window.addEventListener("resize", resize);
 // }
