@@ -1,4 +1,4 @@
-import { Application, Loader, Text, Container, Sprite, Texture } from "pixi.js";
+import { Application, Text, Container, Sprite, Texture, Graphics } from "pixi.js";
 import { pIndex, pName, pScore } from "./styles";
 import { Scrollbox } from "pixi-scrollbox";
 import "./style.css";
@@ -24,6 +24,7 @@ const app = new Application({
     // backgroundColor: 0x000000,
     width: gameWidth,
     height: gameHeight,
+    antialias: true,
 });
 
 // scrollbox
@@ -67,7 +68,7 @@ fetchPlayersAndQuotes()
             // player SPRITE
             const playerSprite = new Sprite(Texture.WHITE);
             playerSprite.width = gameHeight;
-            playerSprite.height = 50 - 5;
+            playerSprite.height = 45;
             playerSprite.anchor.set(0, 0.5);
             playerSprite.tint = 0x00aaaa;
 
@@ -77,10 +78,30 @@ fetchPlayersAndQuotes()
 
             // player DESTRUCTER OBJ
             const { index, name, score, type, avatar } = players["players"][i];
-            score.toLocaleString();
-            const texture = Texture.from(getAvatarUrl(type, avatar));
             // console.log(index, name, score, type, avatar);
+
+            // avatar
+            const texture = Texture.from(getAvatarUrl(type, avatar));
             // console.log(getAvatarUrl(type, avatar));
+
+            // BUTTON square
+            const buttonSquare = new Graphics();
+            buttonSquare.lineStyle(2, 0x000000, 1);
+            buttonSquare.beginFill(0x650a5a, 0.25);
+            buttonSquare.drawRoundedRect(0, 0, 75, 30, 5);
+            buttonSquare.endFill();
+            // BUTTON text
+            const buttonText = new Text("Profile", pName);
+            buttonText.position.set(15, 5);
+            // BUTTON container
+            const buttonContainer = new Container();
+            buttonContainer.addChild(buttonSquare).addChild(buttonText);
+            buttonContainer.buttonMode = true;
+            buttonContainer.interactive = true;
+            // BUTTON events
+            buttonContainer.on("pointerdown", () => onclickButton(buttonSquare));
+            buttonContainer.on("pointerover", () => onPointerOverButton(buttonSquare));
+            buttonContainer.on("pointerout", () => onPointerOutButton(buttonSquare));
 
             // player CREATE
             const playerIndex = new Text(index, pIndex);
@@ -89,18 +110,22 @@ fetchPlayersAndQuotes()
             const playerScore = new Text(formatNumbers(score), pScore);
 
             // player SET
-            playerIndex.position.set(10, 0);
+            playerIndex.position.set(10, -8);
 
             playerAvatar.anchor.set(0.5, 0.5);
             playerAvatar.position.set(50, 0);
             playerAvatar.scale.set(0.2, 0.2);
 
-            playerName.position.set(80, 0);
-            playerScore.position.set(180, 0);
+            playerName.position.set(70, 0);
+            playerScore.position.set(140, 0);
+
+            buttonContainer.position.set(90, -6);
 
             // player CONTAINER ADD
-            playerContainer.addChild(playerIndex).addChild(playerName).addChild(playerScore);
+            playerContainer.addChild(playerIndex).addChild(playerName).addChild(playerScore).addChild(buttonContainer);
+            // playerContainer
             playerContainer.addChild(playerAvatar);
+            // playerContainer
             playerContainer.position.set(10, y);
 
             // scrollbox ADD player CONTAINER
@@ -155,6 +180,7 @@ function isPortrait(): void {
     }
 }
 
+// add comma to digits
 function formatNumbers(num: number) {
     if (num === null) return;
     return num
@@ -165,6 +191,18 @@ function formatNumbers(num: number) {
         .reverse()
         .join("");
 }
+
+// Button Events
+const onclickButton = (object: Graphics) => {
+    console.log("onClick", object);
+    object.alpha = 0.5;
+};
+const onPointerOverButton = (object: Graphics) => {
+    object.alpha = 0.7;
+};
+const onPointerOutButton = (object: Graphics) => {
+    object.alpha = 1;
+};
 
 // LOAD ASSETS
 // async function loadGameAssets(): Promise<void> {

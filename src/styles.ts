@@ -8,7 +8,7 @@ export const pIndex = {
 export const pName = {
     fill: 0xffffff,
     fontFamily: "Trebushet MS",
-    fontSize: 18,
+    fontSize: 16,
     wordWrap: true,
     wordWrapWidth: 120,
 };
