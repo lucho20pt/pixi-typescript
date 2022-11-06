@@ -41,13 +41,11 @@ lightboxInner.lineStyle(1, 0x000000, 1);
 lightboxInner.beginFill(0xffffff, 1);
 lightboxInner.drawRoundedRect(0, gameHeight / 2 / 2, gameWidth / 2, gameHeight / 2, 20);
 lightboxInner.endFill();
-lightboxInner.buttonMode = false;
-lightboxInner.interactive = false;
+lightboxInner.buttonMode = true;
+lightboxInner.interactive = true;
 //
 const lightboxContainer = new Container();
-// lightboxContainer.addChild(lightboxOuter);
-lightboxContainer.addChild(lightboxOuter);
-lightboxContainer.addChild(lightboxInner);
+lightboxContainer.addChild(lightboxOuter, lightboxInner);
 
 // scrollbox
 const scrollbox = new Scrollbox({ boxWidth: gameWidth, boxHeight: gameHeight, overflowX: "hidden" });
@@ -121,7 +119,7 @@ fetchPlayersAndQuotes()
             buttonContainer.buttonMode = true;
             buttonContainer.interactive = true;
             // BUTTON events
-            buttonContainer.on("pointerdown", () => onclickButton(buttonSquare));
+            buttonContainer.on("pointerdown", () => onClickButton(buttonSquare));
             buttonContainer.on("pointerover", () => onPointerOverButton(buttonSquare));
             buttonContainer.on("pointerout", () => onPointerOutButton(buttonSquare));
 
@@ -145,14 +143,11 @@ fetchPlayersAndQuotes()
 
             // player CONTAINER ADD
             playerContainer.addChild(playerIndex).addChild(playerName).addChild(playerScore).addChild(buttonContainer);
-            // playerContainer
             playerContainer.addChild(playerAvatar);
-            // playerContainer
             playerContainer.position.set(10, y);
 
             // scrollbox ADD player CONTAINER
             scrollbox.content.addChild(playerContainer);
-            // scrollbox.content.addChild(lightboxContainer);
         }
     })
     .catch((error) => {
@@ -218,16 +213,29 @@ function formatNumbers(num: number) {
 }
 
 // Button Events
-const onclickButton = (object: Graphics) => {
+const onClickButton = (object: Graphics) => {
     console.log("onClick", object);
     object.alpha = 0.5;
+    // add lightboxContainer
     app.stage.addChild(lightboxContainer);
+    // remove lightboxOuter
+    lightboxInner.on("pointerdown", () => {
+        return false;
+    });
+    lightboxOuter.on("pointerdown", () => onClickLightboxOuter(lightboxOuter));
 };
 const onPointerOverButton = (object: Graphics) => {
     object.alpha = 0.7;
 };
 const onPointerOutButton = (object: Graphics) => {
     object.alpha = 1;
+};
+
+const onClickLightboxOuter = (object: Graphics) => {
+    // object2.tint = 0x00ff00;
+    // object2.angle = object2.angle + 5;
+    console.log("onClickLightboxOuter", object);
+    app.stage.removeChild(lightboxContainer);
 };
 
 // LOAD ASSETS
