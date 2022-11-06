@@ -1,4 +1,4 @@
-import { Application, Text, Container, Sprite, Texture, Graphics } from "pixi.js";
+import { Application, Text, Container, Sprite, Texture, Graphics, DisplayObject } from "pixi.js";
 import { pIndex, pName, pScore } from "./styles";
 import { Scrollbox } from "pixi-scrollbox";
 import "./style.css";
@@ -26,6 +26,28 @@ const app = new Application({
     height: gameHeight,
     antialias: true,
 });
+
+// lightbox
+const lightboxOuter = new Graphics();
+lightboxOuter.lineStyle(1, 0x000000, 1);
+lightboxOuter.beginFill(0x000000, 0.7);
+lightboxOuter.drawRoundedRect(0, 0, gameWidth, gameHeight, 0);
+lightboxOuter.endFill();
+lightboxOuter.buttonMode = true;
+lightboxOuter.interactive = true;
+//
+const lightboxInner = new Graphics();
+lightboxInner.lineStyle(1, 0x000000, 1);
+lightboxInner.beginFill(0xffffff, 1);
+lightboxInner.drawRoundedRect(0, gameHeight / 2 / 2, gameWidth / 2, gameHeight / 2, 20);
+lightboxInner.endFill();
+lightboxInner.buttonMode = false;
+lightboxInner.interactive = false;
+//
+const lightboxContainer = new Container();
+// lightboxContainer.addChild(lightboxOuter);
+lightboxContainer.addChild(lightboxOuter);
+lightboxContainer.addChild(lightboxInner);
 
 // scrollbox
 const scrollbox = new Scrollbox({ boxWidth: gameWidth, boxHeight: gameHeight, overflowX: "hidden" });
@@ -130,6 +152,7 @@ fetchPlayersAndQuotes()
 
             // scrollbox ADD player CONTAINER
             scrollbox.content.addChild(playerContainer);
+            // scrollbox.content.addChild(lightboxContainer);
         }
     })
     .catch((error) => {
@@ -170,6 +193,7 @@ function isPortrait(): void {
         gameHeight = 725;
         app.renderer.resize(gameWidth, gameHeight);
         scrollbox.update();
+        lightboxInner.position.x = 25;
     } else {
         // Landscape mode
         console.log("Landscape");
@@ -177,6 +201,7 @@ function isPortrait(): void {
         gameHeight = 400;
         app.renderer.resize(gameWidth, gameHeight);
         scrollbox.update();
+        lightboxInner.position.x = gameWidth / 4;
     }
 }
 
@@ -196,6 +221,7 @@ function formatNumbers(num: number) {
 const onclickButton = (object: Graphics) => {
     console.log("onClick", object);
     object.alpha = 0.5;
+    app.stage.addChild(lightboxContainer);
 };
 const onPointerOverButton = (object: Graphics) => {
     object.alpha = 0.7;
