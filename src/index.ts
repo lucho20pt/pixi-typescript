@@ -156,7 +156,8 @@ fetchPlayers()
             const playerScore = new Text(formatNumbers(score), pScore);
 
             // player SET
-            playerIndex.position.set(10, -8);
+            playerIndex.position.set(20, -8);
+            playerIndex.anchor.set(0.5, 0);
 
             playerAvatar.anchor.set(0.5, 0.5);
             playerAvatar.position.set(75, 0);
