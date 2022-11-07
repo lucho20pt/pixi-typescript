@@ -96,7 +96,7 @@ const fetchQuotes = async () => {
     return quotes;
 };
 
-// render DATA PLAYERS
+// fetching DATA PLAYERS
 fetchPlayers()
     .then((players) => {
         // players; // fetched players
@@ -180,6 +180,26 @@ fetchPlayers()
         console.log("error =>", error.message);
     });
 
+// fetching DATA QUOTES
+const fetchSingleQuote = () => {
+    fetchQuotes()
+        .then((quotes) => {
+            // quotes; // fetched quotes
+            // console.log("quotes =>", quotes["quotes"]);
+
+            // VARS
+            const quotesLen = quotes["quotes"].length;
+            const randomInt = getRandomInt(0, quotesLen);
+            // console.log(randomInt);
+            const randomQuote = quotes["quotes"][randomInt];
+            console.log(randomQuote);
+        })
+        .catch((error) => {
+            // quotes request failed
+            console.log("error =>", error.message);
+        });
+};
+
 // ON LOAD
 window.onload = async (): Promise<void> => {
     // await loadGameAssets();
@@ -225,18 +245,6 @@ function isPortrait(): void {
     }
 }
 
-// add comma to digits
-function formatNumbers(num: number) {
-    if (num === null) return;
-    return num
-        .toString()
-        .split("")
-        .reverse()
-        .map((digit, i) => (i != 0 && i % 3 === 0 ? `${digit},` : digit))
-        .reverse()
-        .join("");
-}
-
 // Button Events
 const onClickButton = (object: Graphics) => {
     console.log("onClickButton", object);
@@ -244,19 +252,8 @@ const onClickButton = (object: Graphics) => {
     // add lightboxContainer
     app.stage.addChild(lightboxContainer);
 
-    // fetch QUOTES
-    fetchQuotes()
-        .then((quotes) => {
-            // quotes; // fetched quotes
-            // console.log("quotes =>", quotes["quotes"]);
-
-            // VARS
-            quotes["quotes"].length;
-        })
-        .catch((error) => {
-            // quotes request failed
-            console.log("error =>", error.message);
-        });
+    // fetch SINGLE QUOTE
+    fetchSingleQuote();
 
     // remove lightbox
     lightboxInner.on("pointerdown", () => false);
@@ -267,6 +264,25 @@ const onPointerOverButton = (object: Graphics) => {
 };
 const onPointerOutButton = (object: Graphics) => {
     object.alpha = 1;
+};
+
+// add comma to digits
+const formatNumbers = (num: number) => {
+    if (num === null) return;
+    return num
+        .toString()
+        .split("")
+        .reverse()
+        .map((digit, i) => (i != 0 && i % 3 === 0 ? `${digit},` : digit))
+        .reverse()
+        .join("");
+};
+
+// get random number
+const getRandomInt = (min: number, max: number) => {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min) + min); // The maximum is exclusive and the minimum is inclusive
 };
 
 // LOAD ASSETS
