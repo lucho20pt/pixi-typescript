@@ -7,7 +7,7 @@ import "./style.css";
 // console.log(`Welcome from pixi-typescript-boilerplate ${VERSION}`);
 
 const urlPlayers = "./assets/data/players.json";
-const urlQuotes = "./assets/data/players.json";
+const urlQuotes = "./assets/data/quotes.json";
 // const urlPlayers = "https://testing.cdn.arkadiumhosted.com/gameExamples/programming-assignments/senior-core-developer/players.json";
 // const urlQuotes = "https://testing.cdn.arkadiumhosted.com/gameExamples/programming-assignments/senior-core-developer/quotes.json";
 
@@ -57,24 +57,49 @@ sprite.height = gameHeight;
 const getAvatarUrl = (type: number, avatar: number) => `${avatarUrl}/${type}/${avatar}.png`;
 
 // fetch DATA PLAYERS & QUOTES
-const fetchPlayersAndQuotes = async () => {
-    const [playersResponse, quotesResponse] = await Promise.all([fetch(urlPlayers), fetch(urlQuotes)]);
+// const fetchPlayersAndQuotes = async () => {
+//     const [playersResponse, quotesResponse] = await Promise.all([fetch(urlPlayers), fetch(urlQuotes)]);
 
-    if (!playersResponse.ok || !quotesResponse.ok) {
+//     if (!playersResponse.ok || !quotesResponse.ok) {
+//         const message = `An error has occured: ${playersResponse.status}`;
+//         throw new Error(message);
+//     }
+
+//     const players = await playersResponse.json();
+//     const quotes = await quotesResponse.json();
+//     return [players, quotes];
+// };
+
+// fetch DATA PLAYERS
+const fetchPlayers = async () => {
+    const playersResponse = await fetch(urlPlayers);
+
+    if (!playersResponse.ok) {
         const message = `An error has occured: ${playersResponse.status}`;
         throw new Error(message);
     }
 
     const players = await playersResponse.json();
-    const quotes = await quotesResponse.json();
-    return [players, quotes];
+    return players;
 };
 
-// render DATA PLAYERS & QUOTES
-fetchPlayersAndQuotes()
-    .then(([players, quotes]) => {
-        players; // fetched players
-        quotes; // fetched quotes
+// fetch DATA QUOTES
+const fetchQuotes = async () => {
+    const quotesResponse = await fetch(urlQuotes);
+
+    if (!quotesResponse.ok) {
+        const message = `An error has occured: ${quotesResponse.status}`;
+        throw new Error(message);
+    }
+
+    const quotes = await quotesResponse.json();
+    return quotes;
+};
+
+// render DATA PLAYERS
+fetchPlayers()
+    .then((players) => {
+        // players; // fetched players
         // console.log("players =>", players["players"]);
 
         // VARS
@@ -218,24 +243,30 @@ const onClickButton = (object: Graphics) => {
     object.alpha = 0.5;
     // add lightboxContainer
     app.stage.addChild(lightboxContainer);
-    // remove lightboxOuter
-    lightboxInner.on("pointerdown", () => {
-        return false;
-    });
-    lightboxOuter.on("pointerdown", () => onClickLightboxOuter(lightboxOuter));
+
+    // fetch QUOTES
+    fetchQuotes()
+        .then((quotes) => {
+            // quotes; // fetched quotes
+            // console.log("quotes =>", quotes["quotes"]);
+
+            // VARS
+            quotes["quotes"].length;
+        })
+        .catch((error) => {
+            // quotes request failed
+            console.log("error =>", error.message);
+        });
+
+    // remove lightbox
+    lightboxInner.on("pointerdown", () => false);
+    lightboxOuter.on("pointerdown", () => app.stage.removeChild(lightboxContainer));
 };
 const onPointerOverButton = (object: Graphics) => {
     object.alpha = 0.7;
 };
 const onPointerOutButton = (object: Graphics) => {
     object.alpha = 1;
-};
-
-const onClickLightboxOuter = (object: Graphics) => {
-    // object2.tint = 0x00ff00;
-    // object2.angle = object2.angle + 5;
-    console.log("onClickLightboxOuter");
-    app.stage.removeChild(lightboxContainer);
 };
 
 // LOAD ASSETS
