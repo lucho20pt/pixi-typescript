@@ -1,18 +1,16 @@
 import { Application, Text, Container, Sprite, Texture, Graphics } from "pixi.js";
-import { pIndex, pName, pScore } from "./styles";
+import { pIndex, pName, pScore, pNameDark, pQuoteDark } from "./styles";
 import { Scrollbox } from "pixi-scrollbox";
 import "./style.css";
 
 // declare const VERSION: string;
 // console.log(`Welcome from pixi-typescript-boilerplate ${VERSION}`);
 
+const url = "https://testing.cdn.arkadiumhosted.com/gameExamples/programming-assignments/senior-core-developer/";
 const urlPlayers = "./assets/data/players.json";
 const urlQuotes = "./assets/data/quotes.json";
-// const urlPlayers = "https://testing.cdn.arkadiumhosted.com/gameExamples/programming-assignments/senior-core-developer/players.json";
-// const urlQuotes = "https://testing.cdn.arkadiumhosted.com/gameExamples/programming-assignments/senior-core-developer/quotes.json";
-
-const avatarUrl =
-    "https://testing.cdn.arkadiumhosted.com/gameExamples/programming-assignments/senior-core-developer/avatars";
+// const urlPlayers = `${url}/players.json`;
+// const urlQuotes = `${url}/quotes.json`;
 
 // CANVAS
 const portrait = window.matchMedia("(orientation: portrait)");
@@ -26,6 +24,9 @@ const app = new Application({
     height: gameHeight,
     antialias: true,
 });
+
+// profile
+const profileName = new Text("", pNameDark);
 
 // lightbox
 const lightboxOuter = new Graphics();
@@ -54,7 +55,7 @@ sprite.width = gameWidth;
 sprite.height = gameHeight;
 
 // get AVATAR
-const getAvatarUrl = (type: number, avatar: number) => `${avatarUrl}/${type}/${avatar}.png`;
+const getAvatarUrl = (type: number, avatar: number) => `${url}/avatars/${type}/${avatar}.png`;
 
 // fetch DATA PLAYERS & QUOTES
 // const fetchPlayersAndQuotes = async () => {
@@ -126,7 +127,7 @@ fetchPlayers()
             // console.log(index, name, score, type, avatar);
 
             // avatar
-            const texture = Texture.from(getAvatarUrl(type, avatar));
+            const avatarTexture = Texture.from(getAvatarUrl(type, avatar));
             // console.log(getAvatarUrl(type, avatar));
 
             // BUTTON square
@@ -144,13 +145,13 @@ fetchPlayers()
             buttonContainer.buttonMode = true;
             buttonContainer.interactive = true;
             // BUTTON events
-            buttonContainer.on("pointerdown", () => onClickButton(buttonSquare));
+            buttonContainer.on("pointerdown", () => onClickButton(buttonSquare, name, type, avatar));
             buttonContainer.on("pointerover", () => onPointerOverButton(buttonSquare));
             buttonContainer.on("pointerout", () => onPointerOutButton(buttonSquare));
 
             // player CREATE
             const playerIndex = new Text(index, pIndex);
-            const playerAvatar = new Sprite(texture);
+            const playerAvatar = new Sprite(avatarTexture);
             const playerName = new Text(name, pName);
             const playerScore = new Text(formatNumbers(score), pScore);
 
@@ -182,7 +183,7 @@ fetchPlayers()
 
 // fetching DATA QUOTES
 const fetchSingleQuote = () => {
-    fetchQuotes()
+    return fetchQuotes()
         .then((quotes) => {
             // quotes; // fetched quotes
             // console.log("quotes =>", quotes["quotes"]);
@@ -192,7 +193,8 @@ const fetchSingleQuote = () => {
             const randomInt = getRandomInt(0, quotesLen);
             // console.log(randomInt);
             const randomQuote = quotes["quotes"][randomInt];
-            console.log(randomQuote);
+            // console.log(randomQuote.quote);
+            return randomQuote.quote;
         })
         .catch((error) => {
             // quotes request failed
@@ -233,7 +235,9 @@ function isPortrait(): void {
         gameHeight = 725;
         app.renderer.resize(gameWidth, gameHeight);
         scrollbox.update();
-        lightboxInner.position.x = 25;
+        // lightbox
+        lightboxInner.position.x = 22;
+        profileName.position.set(80, 250);
     } else {
         // Landscape mode
         console.log("Landscape");
@@ -241,23 +245,59 @@ function isPortrait(): void {
         gameHeight = 400;
         app.renderer.resize(gameWidth, gameHeight);
         scrollbox.update();
+        // lightbox
         lightboxInner.position.x = gameWidth / 4;
+        profileName.x = lightboxInner.position.x + 20;
+        profileName.position.set(lightboxInner.position.x + 80, 250);
     }
 }
 
 // Button Events
-const onClickButton = (object: Graphics) => {
-    console.log("onClickButton", object);
+const onClickButton = async (object: Graphics, name: string, type: number, avatar: number) => {
+    console.log("onClickButton");
     object.alpha = 0.5;
     // add lightboxContainer
+    // console.log(name);
+
+    // name
+    profileName.text = name;
+    profileName.anchor.set(0.5, 0.5);
+    // avatar
+    const profileTexture = Texture.from(getAvatarUrl(type, avatar));
+    const profileAvatar = new Sprite(profileTexture);
+    profileAvatar.anchor.set(0.5, 0.5);
+    profileAvatar.position.set(0, 0);
+    profileAvatar.scale.set(0.7, 0.7);
+    profileAvatar.position.y = -80;
+    // quote
+    const fetchedQuote = await fetchSingleQuote();
+    if (fetchedQuote.length > 130) pQuoteDark.fontSize = 24;
+    else pQuoteDark.fontSize = 30;
+    const profileQuote = new Text(fetchedQuote, pQuoteDark);
+    profileQuote.anchor.set(0.5, 0.5);
+    profileQuote.position.set(245, 35);
+    // create profile
+    const profileContainer = new Container();
+    profileContainer.addChild(profileName).addChild(profileAvatar).addChild(profileQuote);
+
+    // add profile
+    lightboxContainer.addChild(profileContainer);
+
+    // add lightbox
     app.stage.addChild(lightboxContainer);
 
     // fetch SINGLE QUOTE
-    fetchSingleQuote();
+    // fetchSingleQuote();
 
     // remove lightbox
     lightboxInner.on("pointerdown", () => false);
-    lightboxOuter.on("pointerdown", () => app.stage.removeChild(lightboxContainer));
+    lightboxOuter.on("pointerdown", () => {
+        lightboxContainer.removeChild(profileContainer);
+        lightboxContainer.removeChild(profileName);
+        profileName.removeChild(profileAvatar);
+        profileAvatar.removeChild(profileQuote);
+        app.stage.removeChild(lightboxContainer);
+    });
 };
 const onPointerOverButton = (object: Graphics) => {
     object.alpha = 0.7;
