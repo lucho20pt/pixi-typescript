@@ -1,5 +1,5 @@
 import { Application, Text, Container, Sprite, Texture, Graphics } from "pixi.js";
-import { pIndex, pName, pScore, pNameDark, pQuoteDark } from "./styles";
+import { pIndex, pName, pScore, pButton, pNameDark, pQuoteDark } from "./styles";
 import { Scrollbox } from "pixi-scrollbox";
 import "./style.css";
 
@@ -7,18 +7,18 @@ import "./style.css";
 // console.log(`Welcome from pixi-typescript-boilerplate ${VERSION}`);
 
 const url = "https://testing.cdn.arkadiumhosted.com/gameExamples/programming-assignments/senior-core-developer/";
-const urlPlayers = "./assets/data/players.json";
-const urlQuotes = "./assets/data/quotes.json";
-// const urlPlayers = `${url}/players.json`;
-// const urlQuotes = `${url}/quotes.json`;
+// const urlPlayers = "./assets/data/players.json";
+// const urlQuotes = "./assets/data/quotes.json";
+const urlPlayers = `${url}/players.json`;
+const urlQuotes = `${url}/quotes.json`;
 
 // CANVAS
 const portrait = window.matchMedia("(orientation: portrait)");
-let gameWidth = 725;
-let gameHeight = 400;
+let gameWidth = 900;
+let gameHeight = 500;
 
 const app = new Application({
-    backgroundColor: 0x00dddd,
+    backgroundColor: 0xffffff,
     // backgroundColor: 0x000000,
     width: gameWidth,
     height: gameHeight,
@@ -104,17 +104,17 @@ fetchPlayers()
         // console.log("players =>", players["players"]);
 
         // VARS
-        let y = 20;
-        // const playerLen = players["players"].length;
+        let y = 50;
+        const playerLen = players["players"].length;
 
         // PLAYERS CONTANER
-        for (let i = 0; i < 1000; i++) {
-            if (i !== 0) y += 50;
+        for (let i = 0; i < playerLen; i++) {
+            if (i !== 0) y += 70;
 
             // player SPRITE
             const playerSprite = new Sprite(Texture.WHITE);
-            playerSprite.width = gameHeight;
-            playerSprite.height = 45;
+            playerSprite.width = gameWidth - 25;
+            playerSprite.height = 65;
             playerSprite.anchor.set(0, 0.5);
             playerSprite.tint = 0x00aaaa;
 
@@ -134,11 +134,11 @@ fetchPlayers()
             const buttonSquare = new Graphics();
             buttonSquare.lineStyle(2, 0x000000, 1);
             buttonSquare.beginFill(0x650a5a, 0.25);
-            buttonSquare.drawRoundedRect(0, 0, 75, 30, 5);
+            buttonSquare.drawRoundedRect(0, 0, 75, 40, 5);
             buttonSquare.endFill();
             // BUTTON text
-            const buttonText = new Text("Profile", pName);
-            buttonText.position.set(15, 5);
+            const buttonText = new Text("Profile", pButton);
+            buttonText.position.set(12, 10);
             // BUTTON container
             const buttonContainer = new Container();
             buttonContainer.addChild(buttonSquare).addChild(buttonText);
@@ -159,13 +159,13 @@ fetchPlayers()
             playerIndex.position.set(10, -8);
 
             playerAvatar.anchor.set(0.5, 0.5);
-            playerAvatar.position.set(50, 0);
-            playerAvatar.scale.set(0.2, 0.2);
+            playerAvatar.position.set(75, 0);
+            playerAvatar.scale.set(0.38, 0.38);
 
-            playerName.position.set(70, 0);
-            playerScore.position.set(140, 0);
+            playerName.position.set(100, 0);
+            playerScore.position.set(190, 0);
 
-            buttonContainer.position.set(90, -6);
+            buttonContainer.position.set(96, -8);
 
             // player CONTAINER ADD
             playerContainer.addChild(playerIndex).addChild(playerName).addChild(playerScore).addChild(buttonContainer);
@@ -231,24 +231,25 @@ function isPortrait(): void {
     if (portrait.matches) {
         // Portrait mode
         console.log("Portrait");
-        gameWidth = 400;
-        gameHeight = 725;
+        gameWidth = 500;
+        gameHeight = 900;
         app.renderer.resize(gameWidth, gameHeight);
         scrollbox.update();
         // lightbox
-        lightboxInner.position.x = 22;
-        profileName.position.set(80, 250);
+        lightboxInner.position.x = 30;
+        lightboxOuter.height = gameHeight;
+        profileName.position.set(120, 300);
     } else {
         // Landscape mode
         console.log("Landscape");
-        gameWidth = 725;
-        gameHeight = 400;
+        gameWidth = 900;
+        gameHeight = 500;
         app.renderer.resize(gameWidth, gameHeight);
         scrollbox.update();
         // lightbox
         lightboxInner.position.x = gameWidth / 4;
-        profileName.x = lightboxInner.position.x + 20;
-        profileName.position.set(lightboxInner.position.x + 80, 250);
+        profileName.x = lightboxInner.position.x + 10;
+        profileName.position.set(lightboxInner.position.x + 80, 300);
     }
 }
 
@@ -271,11 +272,11 @@ const onClickButton = async (object: Graphics, name: string, type: number, avata
     profileAvatar.position.y = -80;
     // quote
     const fetchedQuote = await fetchSingleQuote();
-    if (fetchedQuote.length > 130) pQuoteDark.fontSize = 24;
-    else pQuoteDark.fontSize = 30;
+    if (fetchedQuote.length > 200) pQuoteDark.fontSize = 26;
+    else pQuoteDark.fontSize = 32;
     const profileQuote = new Text(fetchedQuote, pQuoteDark);
     profileQuote.anchor.set(0.5, 0.5);
-    profileQuote.position.set(245, 35);
+    profileQuote.position.set(280, 35);
     // create profile
     const profileContainer = new Container();
     profileContainer.addChild(profileName).addChild(profileAvatar).addChild(profileQuote);
