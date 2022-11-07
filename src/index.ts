@@ -1,4 +1,4 @@
-import { Application, Text, Container, Sprite, Texture, Graphics, DisplayObject } from "pixi.js";
+import { Application, Text, Container, Sprite, Texture, Graphics } from "pixi.js";
 import { pIndex, pName, pScore } from "./styles";
 import { Scrollbox } from "pixi-scrollbox";
 import "./style.css";
@@ -41,7 +41,7 @@ lightboxInner.lineStyle(1, 0x000000, 1);
 lightboxInner.beginFill(0xffffff, 1);
 lightboxInner.drawRoundedRect(0, gameHeight / 2 / 2, gameWidth / 2, gameHeight / 2, 20);
 lightboxInner.endFill();
-lightboxInner.buttonMode = true;
+lightboxInner.buttonMode = false;
 lightboxInner.interactive = true;
 //
 const lightboxContainer = new Container();
@@ -214,7 +214,7 @@ function formatNumbers(num: number) {
 
 // Button Events
 const onClickButton = (object: Graphics) => {
-    console.log("onClick", object);
+    console.log("onClickButton", object);
     object.alpha = 0.5;
     // add lightboxContainer
     app.stage.addChild(lightboxContainer);
@@ -234,7 +234,7 @@ const onPointerOutButton = (object: Graphics) => {
 const onClickLightboxOuter = (object: Graphics) => {
     // object2.tint = 0x00ff00;
     // object2.angle = object2.angle + 5;
-    console.log("onClickLightboxOuter", object);
+    console.log("onClickLightboxOuter");
     app.stage.removeChild(lightboxContainer);
 };
 
